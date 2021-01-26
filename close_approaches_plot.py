@@ -56,7 +56,7 @@ for f in onlyfiles:
             database[f.rstrip('.txt')] = [name, date, dist]
             break
 
-# comets = []
+comets = []
 # close_approach_time = []
 # close_approach_distance = []
 fig, ax = plt.subplots()
