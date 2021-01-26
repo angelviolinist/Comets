@@ -1,0 +1,368 @@
+  1    2P/           Encke                            0.336  0.848   11.8    3.3   3.025  JPL K204/11     MPC    JPL    Yoshida
+       4P/           Faye                             1.652  0.570    9.1    7.5   2.750  JPL K144/7      MPC    JPL    Yoshida
+       5D/           Brorsen                          0.590  0.810   29.4    5.5   2.467  IAUCAT03        MPC    JPL    Yoshida
+       6P/           d'Arrest                         1.361  0.611   19.5    6.6   2.709  JPL K155/3      MPC    JPL    Yoshida
+       7P/           Pons-Winnecke                    1.256  0.634   22.3    6.4   2.677  JPL 7           MPC    JPL    Yoshida
+       9P/           Tempel 1                         1.543  0.510   10.5    5.6   2.970  JPL K224/2      MPC    JPL    Yoshida
+      10P/           Tempel 2                         1.422  0.536   12.0    5.4   2.964  JPL K214/12     MPC    JPL    Yoshida
+      11P/           Tempel-Swift-LINEAR              1.403  0.577   14.6    6.0   2.830  JPL K204/6      MPC    JPL    Yoshida
+      14P/           Wolf                             2.729  0.357   27.9    8.8   2.716  JPL K174/8      MPC    JPL    Yoshida
+ 10   15P/           Finlay                           0.975  0.720    6.8    6.5   2.620  JPL K142/2      MPC    JPL    Yoshida
+      16P/           Brooks 2                         1.467  0.563    4.3    6.2   2.873  JPL K074/9      MPC    JPL    Yoshida
+      17P/           Holmes                           2.057  0.432   19.1    6.9   2.859  JPL K212/12     MPC    JPL    Yoshida
+      18D/           Perrine-Mrkos                    1.272  0.643   17.8    6.7   2.669  JPL J682/18     MPC    JPL    Yoshida
+      19P/           Borrelly                         1.360  0.623   30.3    6.9   2.566  JPL K157/5      MPC    JPL    Yoshida
+      21P/           Giacobini-Zinner                 1.014  0.710   32.0    6.5   2.465  JPL K182/13     MPC    JPL    Yoshida
+      22P/           Kopff                            1.576  0.544    4.7    6.4   2.868  JPL K223/2      MPC    JPL    Yoshida
+      24P/           Schaumasse                       1.206  0.705   11.7    8.3   2.504  JPL K173/9      MPC    JPL    Yoshida
+      25D/           Neujmin 2                        1.338  0.567   10.6    5.4   2.932  JPL 7           MPC    JPL    Yoshida
+      26P/           Grigg-Skjellerup                 1.117  0.633   22.4    5.3   2.805  JPL K1810/3     MPC    JPL    Yoshida
+ 20   28P/           Neujmin 1                        1.564  0.774   14.4   18.2   2.166  JPL 45          MPC    JPL    Yoshida
+      30P/           Reinmuth 1                       1.881  0.502    8.1    7.3   2.837  JPL K172/8      MPC    JPL    Yoshida
+      31P/           Schwassmann-Wachmann 2           3.424  0.193    4.5    8.7   2.993  JPL K193/19     MPC    JPL    Yoshida
+      32P/           Comas Sola                       2.009  0.555   10.0    9.6   2.680  JPL K142/1      MPC    JPL    Yoshida
+      33P/           Daniel                           2.167  0.462   22.4    8.1   2.734  JPL K163/6      MPC    JPL    Yoshida
+      34D/           Gale                             1.183  0.761   11.7   11.0   2.291  SAO/1938        MPC    JPL    Yoshida
+      36P/           Whipple                          3.089  0.258    9.9    8.5   2.952  JPL 15          MPC    JPL    Yoshida
+      37P/           Forbes                           1.609  0.534    9.0    6.4   2.866  JPL K182/9      MPC    JPL    Yoshida
+      40P/           Vaisala 1                        1.820  0.632   11.5   11.0   2.534  JPL K148/7      MPC    JPL    Yoshida
+      41P/           Tuttle-Giacobini-Kresak          1.045  0.661    9.2    5.4   2.827  JPL K171/18     MPC    JPL    Yoshida
+ 30   42P/           Neujmin 3                        2.028  0.584    4.0   10.8   2.635  JPL K155/2      MPC    JPL    Yoshida
+      43P/           Wolf-Harrington                  1.357  0.595   16.0    6.1   2.793  JPL K162/6      MPC    JPL    Yoshida
+      44P/           Reinmuth 2                       2.116  0.427    5.9    7.1   2.925  JPL K223/1      MPC    JPL    Yoshida
+      45P/           Honda-Mrkos-Pajdusakova          0.533  0.824    4.2    5.3   2.582  JPL K161/12     MPC    JPL    Yoshida
+      46P/           Wirtanen                         1.055  0.659   11.7    5.4   2.818  JPL K181/21     MPC    JPL    Yoshida
+      47P/           Ashbrook-Jackson                 2.818  0.317   13.0    8.4   2.906  JPL K171/10     MPC    JPL    Yoshida
+      48P/           Johnson                          2.303  0.368   13.7    7.0   2.941  JPL 66          MPC    JPL    Yoshida
+      49P/           Arend-Rigaux                     1.424  0.600   19.0    6.7   2.711  JPL K183/16     MPC    JPL    Yoshida
+      50P/           Arend                            1.922  0.530   19.2    8.3   2.693  JPL K163/2      MPC    JPL    Yoshida
+      51P/           Harrington                       1.700  0.542    5.4    7.2   2.814  JPL K153/2      MPC    JPL    Yoshida
+ 40   52P/           Harrington-Abell                 1.776  0.540   10.2    7.6   2.776  JPL K145/8      MPC    JPL    Yoshida
+      53P/           Van Biesbroeck                   2.426  0.551    6.6   12.6   2.652  JPL K162/8      MPC    JPL    Yoshida
+      54P/           de Vico-Swift-NEAT               2.172  0.427    6.1    7.4   2.908  JPL 22          MPC    JPL    Yoshida
+      56P/           Slaughter-Burnham                2.506  0.507    8.1   11.5   2.710  JPL K162/2      MPC    JPL    Yoshida
+      57P/           duToit-Neujmin-Delporte          1.729  0.499    2.8    6.4   2.917  JPL 21          MPC    JPL    Yoshida
+      58P/           Jackson-Neujmin                  1.377  0.663   13.1    8.2   2.567  JPL K201/1      MPC    JPL    Yoshida
+      59P/           Kearns-Kwee                      2.352  0.476    9.3    9.5   2.771  JPL K182/4      MPC    JPL    Yoshida
+      60P/           Tsuchinshan 2                    1.620  0.539    3.6    6.6   2.864  JPL K183/5      MPC    JPL    Yoshida
+      61P/           Shajn-Schaldach                  2.111  0.427    6.0    7.1   2.926  JPL K153/5      MPC    JPL    Yoshida
+      62P/           Tsuchinshan 1                    1.384  0.598    9.7    6.4   2.797  JPL K174/10     MPC    JPL    Yoshida
+ 50   63P/           Wild 1                           1.951  0.651   19.8   13.2   2.412  JPL 31          MPC    JPL    Yoshida
+      64P/           Swift-Gehrels                    1.393  0.687    8.9    9.4   2.496  JPL K183/6      MPC    JPL    Yoshida
+      65P/           Gunn                             2.910  0.251    9.2    7.7   2.991  JPL K171/8      MPC    JPL    Yoshida
+      66P/           du Toit                          1.285  0.787   18.7   14.8   2.123  JPL K184/8      MPC    JPL    Yoshida
+      67P/           Churyumov-Gerasimenko            1.245  0.641    7.0    6.4   2.745  JPL K154/2      MPC    JPL    Yoshida
+      68P/           Klemola                          1.767  0.639   11.1   10.8   2.527  JPL 38          MPC    JPL    Yoshida
+      69P/           Taylor                           2.280  0.414   22.0    7.7   2.797  JPL K192/4      MPC    JPL    Yoshida
+      70P/           Kojima                           2.013  0.453    6.6    7.0   2.904  JPL 38          MPC    JPL    Yoshida
+      71P/           Clark                            1.586  0.494    9.4    5.6   2.990  JPL K171/5      MPC    JPL    Yoshida
+      72P/           Denning-Fujikawa                 0.784  0.819    9.2    9.0   2.234  JPL 21          MPC    JPL    Yoshida
+ 60   73P/           Schwassmann-Wachmann 3-BT        0.972  0.686   11.2    5.4   2.784  JPL 8           MPC    JPL    Yoshida
+      74P/           Smirnova-Chernykh                3.552  0.148    6.7    8.5   3.007  JPL K183/26     MPC    JPL    Yoshida
+      75D/           Kohoutek                         1.785  0.496    5.9    6.7   2.894  JPL J873/16     MPC    JPL    Yoshida
+      76P/           West-Kohoutek-Ikemura            1.603  0.538   30.5    6.5   2.686  JPL K195/6      MPC    JPL    Yoshida
+      77P/           Longmore                         2.311  0.358   24.4    6.8   2.860  JPL 32          MPC    JPL    Yoshida
+      78P/           Gehrels 2                        2.011  0.462    6.3    7.2   2.887  JPL K192/19     MPC    JPL    Yoshida
+      79P/           du Toit-Hartley                  1.124  0.619    3.1    5.1   2.947  JPL 16          MPC    JPL    Yoshida
+      80P/           Peters-Hartley                   1.613  0.599   29.9    8.1   2.514  JPL 17          MPC    JPL    Yoshida
+      81P/           Wild 2                           1.592  0.538    3.2    6.4   2.879  JPL K222/1      MPC    JPL    Yoshida
+      82P/           Gehrels 3                        3.626  0.124    1.1    8.4   3.027  JPL 18          MPC    JPL    Yoshida
+ 70   83D/           Russell 1                        1.612  0.517   22.7    6.1   2.824  JPL 7           MPC    JPL    Yoshida
+      84P/           Giclas                           1.844  0.494    7.3    7.0   2.872  JPL 46          MPC    JPL    Yoshida
+      85P/           Boethin                          1.135  0.781    4.3   11.8   2.246  JPL 23          MPC    JPL    Yoshida
+      86P/           Wild 3                           2.283  0.369   15.5    6.9   2.933  JPL K152/2      MPC    JPL    Yoshida
+      87P/           Bus                              2.101  0.389    2.6    6.4   3.009  JPL K203/18     MPC    JPL    Yoshida
+      88P/           Howell                           1.358  0.563    4.4    5.5   2.947  JPL K203/12     MPC    JPL    Yoshida
+      89P/           Russell 2                        2.221  0.408   12.1    7.3   2.903  JPL 21          MPC    JPL    Yoshida
+      90P/           Gehrels 1                        2.975  0.510    9.6   14.9   2.689  JPL K172/12     MPC    JPL    Yoshida
+      91P/           Russell 3                        2.607  0.330   14.1    7.7   2.921  JPL K203/9      MPC    JPL    Yoshida
+      92P/           Sanguin                          1.825  0.659   19.4   12.4   2.410  JPL 28          MPC    JPL    Yoshida
+ 80   93P/           Lovas 1                          1.700  0.613   12.2    9.2   2.604  JPL 62          MPC    JPL    Yoshida
+      94P/           Russell 4                        2.240  0.363    6.2    6.6   3.003  JPL 48          MPC    JPL    Yoshida
+      97P/           Metcalf-Brewington               2.604  0.457   17.9   10.5   2.710  JPL K113/8      MPC    JPL    Yoshida
+      98P/           Takamizawa                       1.673  0.561   10.5    7.4   2.759  JPL 15          MPC    JPL    Yoshida
+      99P/           Kowal 1                          4.719  0.228    4.3   15.1   2.956  JPL 22          MPC    JPL    Yoshida
+     100P/           Hartley 1                        1.982  0.419   25.7    6.3   2.851  JPL 21          MPC    JPL    Yoshida
+     101P/           Chernykh                         2.283  0.604    5.0   13.8   2.574  JPL K203/11     MPC    JPL    Yoshida
+     102P/           Shoemaker 1                      1.969  0.473   26.2    7.2   2.732  JPL K133/5      MPC    JPL    Yoshida
+     103P/           Hartley 2                        1.059  0.695   13.6    6.5   2.641  JPL K173/7      MPC    JPL    Yoshida
+     104P/           Kowal 2                          1.179  0.639   10.3    5.9   2.794  JPL K163/6      MPC    JPL    Yoshida
+ 90  105P/           Singer Brewster                  2.051  0.409    9.2    6.5   2.970  JPL 45          MPC    JPL    Yoshida
+     106P/           Schuster                         1.546  0.589   20.1    7.3   2.674  JPL 20          MPC    JPL    Yoshida
+     107P/           Wilson-Harrington                0.992  0.624    2.8    4.3   3.083  JPL 183         MPC    JPL    Yoshida
+     108P/           Ciffreo                          1.709  0.543   13.1    7.2   2.777  JPL 26          MPC    JPL    Yoshida
+     110P/           Hartley 3                        2.475  0.315   11.7    6.9   2.989  JPL K212/7      MPC    JPL    Yoshida
+     111P/           Helin-Roman-Crockett             3.704  0.110    4.2    8.5   3.023  JPL 8           MPC    JPL    Yoshida
+     112P/           Urata-Niijima                    1.459  0.587   24.2    6.7   2.688  JPL 34          MPC    JPL    Yoshida
+     113P/           Spitaler                         2.129  0.422    5.8    7.1   2.930  JPL 35          MPC    JPL    Yoshida
+     114P/           Wiseman-Skiff                    1.579  0.554   18.3    6.7   2.772  JPL K203/13     MPC    JPL    Yoshida
+     115P/           Maury                            2.057  0.518   11.7    8.8   2.736  JPL 38          MPC    JPL    Yoshida
+100  116P/           Wild 4                           2.187  0.372    3.6    6.5   3.009  JPL K161/2      MPC    JPL    Yoshida
+     117P/           Helin-Roman-Alu 1                3.056  0.254    8.7    8.3   2.967  JPL K222/14     MPC    JPL    Yoshida
+     118P/           Shoemaker-Levy 4                 1.984  0.428    8.5    6.5   2.960  JPL K162/7      MPC    JPL    Yoshida
+     119P/           Parker-Hartley                   3.039  0.291    5.2    8.9   2.944  JPL 50          MPC    JPL    Yoshida
+     120P/           Mueller 1                        2.747  0.337    8.8    8.4   2.917  JPL 19          MPC    JPL    Yoshida
+     121P/           Shoemaker-Holt 2                 2.648  0.338   17.7    8.0   2.872  JPL 42          MPC    JPL    Yoshida
+     123P/           West-Hartley                     2.126  0.449   15.4    7.6   2.832  JPL K192/6      MPC    JPL    Yoshida
+     124P/           Mrkos                            1.645  0.504   31.5    6.0   2.744  JPL 55          MPC    JPL    Yoshida
+     125P/           Spacewatch                       1.525  0.512   10.0    5.5   2.976  JPL 32          MPC    JPL    Yoshida
+     127P/           Holt-Olmstead                    2.196  0.362   14.3    6.4   2.980  JPL K162/1      MPC    JPL    Yoshida
+110  128P/           Shoemaker-Holt 1-A               3.035  0.334    4.4    9.7   2.901  JPL 11          MPC    JPL    Yoshida
+     129P/           Shoemaker-Levy 3                 3.670  0.140    3.5    8.8   3.010  JPL K223/6      MPC    JPL    Yoshida
+     130P/           McNaught-Hughes                  2.098  0.407    7.3    6.7   2.965  JPL 44          MPC    JPL    Yoshida
+     131P/           Mueller 2                        2.418  0.343    7.4    7.1   2.981  JPL 39          MPC    JPL    Yoshida
+     132P/           Helin-Roman-Alu 2                1.918  0.531    5.8    8.3   2.768  JPL 28          MPC    JPL    Yoshida
+     134P/           Kowal-Vavrova                    2.572  0.587    4.3   15.5   2.602  JPL 20          MPC    JPL    Yoshida
+     135P/           Shoemaker-Levy 8                 2.714  0.291    6.1    7.5   2.992  JPL 12          MPC    JPL    Yoshida
+     136P/           Mueller 3                        2.975  0.292    9.4    8.6   2.934  JPL K162/1      MPC    JPL    Yoshida
+     137P/           Shoemaker-Levy 2                 1.933  0.572    4.9    9.6   2.675  JPL 38          MPC    JPL    Yoshida
+     138P/           Shoemaker-Levy 7                 1.707  0.529   10.1    6.9   2.829  JPL 19          MPC    JPL    Yoshida
+120  139P/           Vaisala-Oterma                   3.403  0.248    2.3    9.6   2.956  JPL 40          MPC    JPL    Yoshida
+     140P/           Bowell-Skiff                     1.972  0.692    3.8   16.2   2.411  JPL 25          MPC    JPL    Yoshida
+     141P/           Machholz 2                       0.761  0.748   12.8    5.3   2.708  JPL K204/1      MPC    JPL    Yoshida
+     142P/           Ge-Wang                          2.472  0.500   12.3   11.0   2.702  JPL 18          MPC    JPL    Yoshida
+     143P/           Kowal-Mrkos                      2.542  0.409    4.7    8.9   2.864  JPL 80          MPC    JPL    Yoshida
+     144P/           Kushida                          1.439  0.628    4.1    7.6   2.684  JPL 20          MPC    JPL    Yoshida
+     145P/           Shoemaker-Levy 5                 1.902  0.541   11.3    8.4   2.728  JPL 31          MPC    JPL    Yoshida
+     146P/           Shoemaker-LINEAR                 1.426  0.647   23.1    8.1   2.525  JPL K163/2      MPC    JPL    Yoshida
+     147P/           Kushida-Muramatsu                2.756  0.276    2.4    7.4   3.010  JPL K083/2      MPC    JPL    Yoshida
+     148P/           Anderson-LINEAR                  1.692  0.539    3.7    7.0   2.828  JPL 19          MPC    JPL    Yoshida
+130  149P/           Mueller 4                        2.647  0.388   29.8    9.0   2.662  JPL 13          MPC    JPL    Yoshida
+     150P/           LONEOS                           1.768  0.546   18.5    7.7   2.711  JPL 39          MPC    JPL    Yoshida
+     151P/           Helin                            2.496  0.570    4.7   14.0   2.626  JPL 33          MPC    JPL    Yoshida
+     152P/           Helin-Lawrence                   3.110  0.309    9.9    9.5   2.899  JPL 56          MPC    JPL    Yoshida
+     154P/           Brewington                       1.608  0.671   17.8   10.8   2.434  JPL K132/1      MPC    JPL    Yoshida
+     155P/           Shoemaker 3                      1.809  0.726    6.4   16.9   2.328  JPL 48          MPC    JPL    Yoshida
+     156P/           Russell-LINEAR                   1.307  0.622   18.4    6.4   2.716  JPL 33          MPC    JPL    Yoshida
+     157P/           Tritton                          1.361  0.601    7.3    6.3   2.809  JPL K163/1      MPC    JPL    Yoshida
+     158P/           Kowal-LINEAR                     4.580  0.030    7.9   10.3   2.988  JPL 126         MPC    JPL    Yoshida
+     159P/           LONEOS                           3.621  0.382   23.5   14.2   2.687  JPL 51          MPC    JPL    Yoshida
+140  160P/           LINEAR                           2.067  0.479   17.3    7.9   2.775  JPL 54          MPC    JPL    Yoshida
+     162P/           Siding Spring                    1.232  0.596   27.8    5.3   2.793  JPL 124         MPC    JPL    Yoshida
+     163P/           NEAT                             1.926  0.476   12.5    7.1   2.858  JPL 39          MPC    JPL    Yoshida
+     164P/           Christensen                      1.681  0.540   16.3    7.0   2.777  JPL K182/7      MPC    JPL    Yoshida
+     168P/           Hergenrother                     1.415  0.609   21.9    6.9   2.663  JPL 55          MPC    JPL    Yoshida
+     169P/           NEAT                             0.607  0.767   11.3    4.2   2.888  JPL 124         MPC    JPL    Yoshida
+     170P/           Christensen                      2.929  0.304   10.1    8.6   2.923  JPL 20          MPC    JPL    Yoshida
+     171P/           Spahr                            1.771  0.502   21.9    6.7   2.789  JPL K193/2      MPC    JPL    Yoshida
+     172P/           Yeung                            2.242  0.364   11.6    6.6   2.978  JPL 70          MPC    JPL    Yoshida
+     173P/           Mueller 5                        4.213  0.261   16.5   13.6   2.851  JPL 91          MPC    JPL    Yoshida
+150  175P/           Hergenrother                     2.016  0.422    6.1    6.5   2.968  JPL 61          MPC    JPL    Yoshida
+     178P/           Hug-Bell                         1.937  0.473   11.0    7.0   2.870  JPL 45          MPC    JPL    Yoshida
+     179P/           Jedicke                          4.082  0.307   19.9   14.3   2.788  JPL 25          MPC    JPL    Yoshida
+     180P/           NEAT                             2.481  0.356   16.9    7.6   2.890  JPL 47          MPC    JPL    Yoshida
+     181P/           Shoemaker-Levy 6                 1.124  0.707   17.0    7.5   2.517  JPL 16          MPC    JPL    Yoshida
+     182P/           LONEOS                           0.978  0.666   16.9    5.0   2.846  JPL 62          MPC    JPL    Yoshida
+     183P/           Korlevic-Juric                   3.888  0.135   18.7    9.5   2.902  JPL 55          MPC    JPL    Yoshida
+     184P/           Lovas 2                          1.394  0.604    1.6    6.6   2.788  JPL 43          MPC    JPL    Yoshida
+     185P/           Petriew                          0.932  0.699   14.0    5.5   2.749  JPL K183/6      MPC    JPL    Yoshida
+     186P/           Garradd                          4.320  0.127   28.6   11.0   2.751  JPL 61          MPC    JPL    Yoshida
+160  187P/           LINEAR                           3.715  0.173   13.7    9.5   2.937  JPL 40          MPC    JPL    Yoshida
+     188P/           LINEAR-Mueller                   2.565  0.415   10.5    9.2   2.829  JPL K172/7      MPC    JPL    Yoshida
+     189P/           NEAT                             1.174  0.598   20.4    5.0   2.909  JPL 61          MPC    JPL    Yoshida
+     190P/           Mueller                          2.032  0.521    2.2    8.7   2.767  JPL 41          MPC    JPL    Yoshida
+     191P/           McNaught                         2.048  0.420    8.8    6.6   2.951  JPL 61          MPC    JPL    Yoshida
+     192P/           Shoemaker-Levy 1                 1.526  0.772   24.4   17.3   2.090  JPL 19          MPC    JPL    Yoshida
+     193P/           LINEAR-NEAT                      2.122  0.403   10.8    6.7   2.949  JPL 34          MPC    JPL    Yoshida
+     194P/           LINEAR                           1.698  0.576   11.1    8.0   2.708  JPL 73          MPC    JPL    Yoshida
+     195P/           Hill                             4.438  0.315   36.4   16.5   2.509  JPL 37          MPC    JPL    Yoshida
+     196P/           Tichy                            2.150  0.431   19.4    7.4   2.827  JPL 26          MPC    JPL    Yoshida
+170  197P/           LINEAR                           1.061  0.630   25.6    4.9   2.855  JPL 47          MPC    JPL    Yoshida
+     198P/           ODAS                             1.979  0.448    1.3    6.8   2.936  JPL 32          MPC    JPL    Yoshida
+     199P/           Shoemaker 4                      2.936  0.507   24.8   14.5   2.548  JPL 43          MPC    JPL    Yoshida
+     200P/           Larsen                           3.272  0.333   12.1   10.9   2.851  JPL 42          MPC    JPL    Yoshida
+     201P/           LONEOS                           1.340  0.613    7.0    6.4   2.783  JPL 40          MPC    JPL    Yoshida
+     202P/           Scotti                           2.527  0.330    2.2    7.3   2.985  JPL 76          MPC    JPL    Yoshida
+     203P/           Korlevic                         3.182  0.316    3.0   10.0   2.911  JPL 122         MPC    JPL    Yoshida
+     204P/           LINEAR-NEAT                      1.940  0.471    6.6    7.0   2.891  JPL 48          MPC    JPL    Yoshida
+     205P/           Giacobini                        1.527  0.569   15.3    6.7   2.778  JPL 9           MPC    JPL    Yoshida
+     206P/           Barnard-Boattini                 0.979  0.689   32.0    5.6   2.611  JPL 12          MPC    JPL    Yoshida
+180  207P/           NEAT                             0.944  0.757   10.2    7.7   2.451  JPL 67          MPC    JPL    Yoshida
+     208P/           McMillan                         2.528  0.374    4.4    8.1   2.917  JPL 25          MPC    JPL    Yoshida
+     209P/           LINEAR                           0.903  0.692   20.6    5.0   2.789  JPL 138         MPC    JPL    Yoshida
+     210P/           Christensen                      0.534  0.832   10.2    5.7   2.492  JPL 51          MPC    JPL    Yoshida
+     211P/           Hill                             2.357  0.338   18.9    6.7   2.934  JPL 39          MPC    JPL    Yoshida
+     212P/           NEAT                             1.654  0.579   22.4    7.8   2.635  JPL 15          MPC    JPL    Yoshida
+     213P/           Van Ness                         1.983  0.407   10.4    6.1   2.995  JPL K171/3      MPC    JPL    Yoshida
+     214P/           LINEAR                           1.840  0.490   15.2    6.8   2.844  JPL 17          MPC    JPL    Yoshida
+     215P/           NEAT                             3.289  0.218   12.4    8.6   2.951  JPL 66          MPC    JPL    Yoshida
+     216P/           LINEAR                           2.154  0.445    9.0    7.7   2.868  JPL 33          MPC    JPL    Yoshida
+190  217P/           LINEAR                           1.224  0.690   12.9    7.8   2.548  JPL 129         MPC    JPL    Yoshida
+     218P/           LINEAR                           1.701  0.491   18.2    6.1   2.884  JPL 43          MPC    JPL    Yoshida
+     219P/           LINEAR                           2.364  0.353   11.5    7.0   2.961  JPL 78          MPC    JPL    Yoshida
+     220P/           McNaught                         1.549  0.502    8.1    5.5   2.996  JPL 49          MPC    JPL    Yoshida
+     221P/           LINEAR                           1.781  0.487   11.4    6.5   2.896  JPL 63          MPC    JPL    Yoshida
+     222P/           LINEAR                           0.781  0.727    5.1    4.8   2.835  JPL 36          MPC    JPL    Yoshida
+     223P/           Skiff                            2.420  0.416   27.1    8.4   2.700  JPL 67          MPC    JPL    Yoshida
+     224P/           LINEAR-NEAT                      1.882  0.437   14.7    6.1   2.951  JPL 12          MPC    JPL    Yoshida
+     225P/           LINEAR                           1.325  0.638   21.3    7.0   2.627  JPL 45          MPC    JPL    Yoshida
+     226P/           Pigott-LINEAR-Kowalski           1.776  0.529   44.0    7.3   2.419  JPL K163/7      MPC    JPL    Yoshida
+200  227P/           Catalina-LINEAR                  1.795  0.500    6.5    6.8   2.879  JPL 25          MPC    JPL    Yoshida
+     228P/           LINEAR                           3.430  0.177    7.9    8.5   2.994  JPL 69          MPC    JPL    Yoshida
+     229P/           Gibbs                            2.448  0.377   26.1    7.8   2.770  JPL 31          MPC    JPL    Yoshida
+     230P/           LINEAR                           1.485  0.563   14.7    6.3   2.822  JPL 55          MPC    JPL    Yoshida
+     231P/           LINEAR-NEAT                      3.032  0.247   12.3    8.1   2.958  JPL 52          MPC    JPL    Yoshida
+     232P/           Hill                             2.983  0.335   14.6    9.5   2.853  JPL 28          MPC    JPL    Yoshida
+     233P/           La Sagra                         1.795  0.409   11.3    5.3   3.081  JPL 8           MPC    JPL    Yoshida
+     234P/           LINEAR                           2.860  0.251   11.5    7.5   2.987  JPL 24          MPC    JPL    Yoshida
+     235P/           LINEAR                           2.748  0.313    8.9    8.0   2.946  JPL 19          MPC    JPL    Yoshida
+     236P/           LINEAR                           1.832  0.509   16.3    7.2   2.794  JPL 47          MPC    JPL    Yoshida
+210  237P/           LINEAR                           1.973  0.439   15.2    6.6   2.906  JPL 38          MPC    JPL    Yoshida
+     239P/           LINEAR                           1.647  0.631   11.3    9.5   2.573  JPL 16          MPC    JPL    Yoshida
+     240P/           NEAT                             2.128  0.450   23.5    7.6   2.757  JPL 70          MPC    JPL    Yoshida
+     241P/           LINEAR                           1.908  0.614   21.0   11.0   2.489  JPL 48          MPC    JPL    Yoshida
+     242P/           Spahr                            3.872  0.314   32.1   13.4   2.596  JPL 88          MPC    JPL    Yoshida
+     243P/           NEAT                             2.456  0.360    7.6    7.5   2.945  JPL 46          MPC    JPL    Yoshida
+     244P/           Scotti                           3.934  0.204    2.3   11.0   2.959  JPL 130         MPC    JPL    Yoshida
+     245P/           WISE                             2.139  0.466   21.1    8.0   2.747  JPL 15          MPC    JPL    Yoshida
+     246P/           NEAT                             2.878  0.285   16.0    8.1   2.914  JPL 201         MPC    JPL    Yoshida
+     247P/           LINEAR                           1.484  0.626   13.7    7.9   2.636  JPL 21          MPC    JPL    Yoshida
+220  248P/           Gibbs                            2.147  0.641    6.4   14.6   2.505  JPL 18          MPC    JPL    Yoshida
+     249P/           LINEAR                           0.505  0.818    8.4    4.6   2.708  JPL 42          MPC    JPL    Yoshida
+     250P/           Larson                           2.213  0.407   13.3    7.2   2.899  JPL 29          MPC    JPL    Yoshida
+     251P/           LINEAR                           1.712  0.510   23.5    6.5   2.783  JPL 32          MPC    JPL    Yoshida
+     252P/           LINEAR                           0.996  0.673   10.4    5.3   2.821  JPL K161/1      MPC    JPL    Yoshida
+     253P/           PANSTARRS                        2.039  0.413    4.9    6.5   2.981  JPL 16          MPC    JPL    Yoshida
+     254P/           McNaught                         3.199  0.313   32.6   10.1   2.631  JPL 26          MPC    JPL    Yoshida
+     255P/           Levy                             0.992  0.672   18.3    5.3   2.792  JPL 38          MPC    JPL    Yoshida
+     256P/           LINEAR                           2.690  0.418   27.6    9.9   2.643  JPL 44          MPC    JPL    Yoshida
+     257P/           Catalina                         2.130  0.433   20.2    7.3   2.823  JPL 102         MPC    JPL    Yoshida
+230  258P/           PANSTARRS                        3.478  0.210    6.7    9.2   2.968  JPL 7           MPC    JPL    Yoshida
+     260P/           McNaught                         1.492  0.594   15.8    7.0   2.717  JPL 91          MPC    JPL    Yoshida
+     261P/           Larson                           2.187  0.390    6.3    6.8   2.970  JPL 46          MPC    JPL    Yoshida
+     263P/           Gibbs                            1.251  0.587   14.5    5.3   2.913  JPL 16          MPC    JPL    Yoshida
+     264P/           Larsen                           2.438  0.374   25.1    7.7   2.789  JPL 17          MPC    JPL    Yoshida
+     265P/           LINEAR                           1.505  0.646   14.7    8.8   2.558  JPL 29          MPC    JPL    Yoshida
+     266P/           Christensen                      2.332  0.340    3.4    6.6   3.020  JPL K202/9      MPC    JPL    Yoshida
+     267P/           LONEOS                           1.338  0.593    5.4    6.0   2.856  JPL 23          MPC    JPL    Yoshida
+     268P/           Bernardi                         2.351  0.480   15.7    9.6   2.725  JPL 20          MPC    JPL    Yoshida
+     269P/           Jedicke                          4.077  0.435    6.6   19.4   2.828  JPL 79          MPC    JPL    Yoshida
+240  270P/           Gehrels                          3.595  0.468    2.9   17.5   2.782  JPL 63          MPC    JPL    Yoshida
+     271P/           van Houten-Lemmon                4.252  0.390    6.9   18.4   2.863  JPL 26          MPC    JPL    Yoshida
+     272P/           NEAT                             2.438  0.452   18.3    9.4   2.735  JPL 27          MPC    JPL    Yoshida
+     274P/           Tombaugh-Tenagra                 2.442  0.440   15.8    9.1   2.774  JPL 26          MPC    JPL    Yoshida
+     275P/           Hermann                          1.649  0.714   21.6   13.8   2.273  JPL 21          MPC    JPL    Yoshida
+     276P/           Vorobjov                         3.920  0.276   14.4   12.6   2.860  JPL 21          MPC    JPL    Yoshida
+     277P/           LINEAR                           1.914  0.504   16.7    7.6   2.772  JPL 24          MPC    JPL    Yoshida
+     278P/           McNaught                         2.096  0.433    6.7    7.1   2.916  JPL 45          MPC    JPL    Yoshida
+     279P/           La Sagra                         2.149  0.399    5.1    6.8   2.970  JPL 22          MPC    JPL    Yoshida
+     280P/           Larsen                           2.625  0.418   11.8    9.6   2.809  JPL 33          MPC    JPL    Yoshida
+250  281P/           MOSS                             4.018  0.174    4.7   10.7   2.968  JPL 9           MPC    JPL    Yoshida
+     282P/           323137 2003 BM80                 3.450  0.188    5.8    8.8   2.991  JPL 12          MPC    JPL    Yoshida
+     283P/           Spacewatch                       2.127  0.486   14.5    8.4   2.767  JPL 6           MPC    JPL    Yoshida
+     284P/           McNaught                         2.283  0.378   11.9    7.0   2.939  JPL 63          MPC    JPL    Yoshida
+     285P/           LINEAR                           1.710  0.621   24.5    9.6   2.482  JPL 22          MPC    JPL    Yoshida
+     286P/           Christensen                      2.367  0.425   17.0    8.4   2.803  JPL 25          MPC    JPL    Yoshida
+     287P/           Christensen                      3.052  0.269   16.3    8.5   2.902  JPL 34          MPC    JPL    Yoshida
+     289P/           Blanpain                         0.959  0.685    5.9    5.3   2.817  JPL K192/7      MPC    JPL    Yoshida
+     290P/           Jaeger                           2.155  0.647   19.1   15.1   2.413  JPL 88          MPC    JPL    Yoshida
+     291P/           NEAT                             2.605  0.429    5.9    9.7   2.824  JPL 56          MPC    JPL    Yoshida
+260  292P/           Li                               2.535  0.587   24.3   15.2   2.451  JPL 55          MPC    JPL    Yoshida
+     293P/           Spacewatch                       2.110  0.419    9.1    6.9   2.930  JPL 24          MPC    JPL    Yoshida
+     294P/           LINEAR                           1.282  0.599   18.5    5.7   2.819  JPL 31          MPC    JPL    Yoshida
+     295P/           LINEAR                           2.059  0.615   21.1   12.4   2.465  JPL 7           MPC    JPL    Yoshida
+     296P/           Garradd                          1.831  0.477   25.2    6.6   2.790  JPL 44          MPC    JPL    Yoshida
+     297P/           Beshore                          2.409  0.309   10.3    6.5   3.025  JPL 34          MPC    JPL    Yoshida
+     298P/           Christensen                      2.051  0.412    8.0    6.5   2.968  JPL 16          MPC    JPL    Yoshida
+     299P/           Catalina-PANSTARRS               3.140  0.282   10.5    9.1   2.920  JPL 33          MPC    JPL    Yoshida
+     300P/           Catalina                         0.825  0.694    5.7    4.4   2.963  JPL 11          MPC    JPL    Yoshida
+     301P/           LINEAR-NEAT                      2.346  0.587   10.6   13.6   2.578  JPL 4           MPC    JPL    Yoshida
+270  302P/           Lemmon-PANSTARRS                 3.302  0.228    6.0    8.9   2.972  JPL 10          MPC    JPL    Yoshida
+     303P/           NEAT                             2.485  0.510    7.1   11.4   2.711  JPL 34          MPC    JPL    Yoshida
+     304P/           Ory                              1.382  0.574    2.8    5.8   2.895  JPL 63          MPC    JPL    Yoshida
+     305P/           Skiff                            1.404  0.696   11.5    9.9   2.452  JPL 39          MPC    JPL    Yoshida
+     306P/           LINEAR                           1.247  0.598    8.4    5.5   2.901  JPL 31          MPC    JPL    Yoshida
+     307P/           LINEAR                           1.889  0.675    4.4   14.0   2.451  JPL 19          MPC    JPL    Yoshida
+     308P/           Lagerkvist-Carsenty              4.256  0.362    4.8   17.2   2.883  JPL 53          MPC    JPL    Yoshida
+     309P/           LINEAR                           1.751  0.607   17.7    9.4   2.570  JPL 40          MPC    JPL    Yoshida
+     310P/           Hill                             2.397  0.425   13.2    8.5   2.826  JPL 28          MPC    JPL    Yoshida
+     312P/           NEAT                             1.970  0.430   19.8    6.4   2.889  JPL 17          MPC    JPL    Yoshida
+280  314P/           Montani                          4.249  0.416    4.0   19.6   2.861  JPL 43          MPC    JPL    Yoshida
+     315P/           LONEOS                           2.430  0.516   17.9   11.3   2.637  JPL 21          MPC    JPL    Yoshida
+     316P/           LONEOS-Christensen               3.608  0.166    9.9    9.0   2.974  JPL 1           MPC    JPL    Yoshida
+     317P/           WISE                             1.241  0.580   12.0    5.1   2.961  JPL 16          MPC    JPL    Yoshida
+     318P/           McNaught-Hartley                 2.446  0.675   17.9   20.7   2.380  JPL 28          MPC    JPL    Yoshida
+     319P/           Catalina-McNaught                1.197  0.665   15.1    6.8   2.651  JPL 33          MPC    JPL    Yoshida
+     320P/           McNaught                         0.985  0.682    4.9    5.5   2.802  JPL 29          MPC    JPL    Yoshida
+     321P/           SOHO                             0.047  0.981   19.7    3.8   2.396  JPL 3           MPC    JPL    Yoshida
+     322P/           SOHO                             0.054  0.979   12.6    4.0   2.347  JPL 10          MPC    JPL    Yoshida
+     323P/           SOHO                             0.048  0.982    6.5    4.2   2.261  JPL 7           MPC    JPL    Yoshida
+290  325P/           Yang-Gao                         1.296  0.621   16.2    6.3   2.742  JPL 28          MPC    JPL    Yoshida
+     326P/           Hill                             2.777  0.318    2.5    8.2   2.953  JPL 19          MPC    JPL    Yoshida
+     327P/           Van Ness                         1.551  0.564   36.3    6.7   2.563  JPL 22          MPC    JPL    Yoshida
+     328P/           LONEOS-Tucker                    1.880  0.552   17.7    8.6   2.667  JPL 9           MPC    JPL    Yoshida
+     329P/           LINEAR-Catalina                  1.660  0.680   21.5   11.8   2.365  JPL 12          MPC    JPL    Yoshida
+     330P/           Catalina                         2.972  0.549   15.5   16.9   2.602  JPL 50          MPC    JPL    Yoshida
+     332P/           Ikeya-Murakami-A                 1.573  0.490    9.4    5.4   3.010  JPL 14          MPC    JPL    Yoshida
+     334P/           NEAT                             4.188  0.354   19.1   16.5   2.776  JPL 46          MPC    JPL    Yoshida
+     335P/           Gibbs                            1.638  0.543    7.3    6.8   2.833  JPL 33          MPC    JPL    Yoshida
+     336P/           McNaught                         2.633  0.453   18.6   10.6   2.707  JPL 29          MPC    JPL    Yoshida
+300  337P/           WISE                             1.654  0.498   15.4    6.0   2.911  JPL 15          MPC    JPL    Yoshida
+     338P/           McNaught                         2.296  0.411   25.4    7.7   2.760  JPL 46          MPC    JPL    Yoshida
+     339P/           Gibbs                            1.324  0.640    5.7    7.0   2.701  JPL 19          MPC    JPL    Yoshida
+     340P/           Boattini                         3.063  0.280    2.1    8.8   2.959  JPL 24          MPC    JPL    Yoshida
+     341P/           Gibbs                            2.509  0.415    3.8    8.9   2.861  JPL 23          MPC    JPL    Yoshida
+     343P/           NEAT-LONEOS                      2.277  0.584    5.6   12.8   2.608  JPL 32          MPC    JPL    Yoshida
+     344P/           Read                             2.825  0.422    3.5   10.8   2.819  JPL 28          MPC    JPL    Yoshida
+     345P/           LINEAR                           3.155  0.220    2.7    8.1   3.005  JPL 8           MPC    JPL    Yoshida
+     346P/           Catalina                         2.224  0.504   22.2    9.5   2.646  JPL 37          MPC    JPL    Yoshida
+     347P/           PANSTARRS                        2.224  0.384   11.7    6.9   2.947  JPL 7           MPC    JPL    Yoshida
+310  348P/           PANSTARRS                        2.212  0.301   17.6    5.6   3.062  JPL 7           MPC    JPL    Yoshida
+     349P/           Lemmon                           2.496  0.301    5.5    6.7   3.031  JPL 11          MPC    JPL    Yoshida
+     350P/           McNaught                         3.748  0.087    7.4    8.3   3.023  JPL 23          MPC    JPL    Yoshida
+     351P/           Wiegert-PANSTARRS                3.121  0.295   12.8    9.3   2.894  JPL 6           MPC    JPL    Yoshida
+     352P/           Skiff                            2.523  0.618   21.1   16.9   2.441  JPL 37          MPC    JPL    Yoshida
+     353P/           McNaught                         2.209  0.469   28.4    8.5   2.639  JPL 14          MPC    JPL    Yoshida
+     355P/           LINEAR-NEAT                      1.708  0.508   11.0    6.5   2.880  JPL 35          MPC    JPL    Yoshida
+     356P/           WISE                             2.689  0.354    9.6    8.5   2.899  JPL 12          MPC    JPL    Yoshida
+     357P/           Hill                             2.512  0.435    6.3    9.4   2.824  JPL 23          MPC    JPL    Yoshida
+     359P/           LONEOS                           3.138  0.322   10.3   10.0   2.881  JPL 9           MPC    JPL    Yoshida
+320  360P/           WISE                             1.862  0.497   24.1    7.1   2.741  JPL 15          MPC    JPL    Yoshida
+     361P/           Spacewatch                       2.780  0.438   13.9   11.0   2.754  JPL 16          MPC    JPL    Yoshida
+     362P/           457175 2008 GO98                 2.850  0.281   15.6    7.9   2.927  JPL 20          MPC    JPL    Yoshida
+     363P/           Lemmon                           1.506  0.558    4.0    6.3   2.868  JPL 15          MPC    JPL    Yoshida
+     364P/           PANSTARRS                        0.798  0.723   12.2    4.9   2.814  JPL 48          MPC    JPL    Yoshida
+     365P/           PANSTARRS                        1.359  0.573    9.8    5.7   2.897  JPL 24          MPC    JPL    Yoshida
+     366P/           Spacewatch                       2.285  0.347    8.9    6.6   3.006  JPL 20          MPC    JPL    Yoshida
+     367P/           Catalina                         2.528  0.280    8.5    6.6   3.042  JPL 16          MPC    JPL    Yoshida
+     368P/           NEAT                             2.044  0.629   15.4   12.9   2.487  JPL 27          MPC    JPL    Yoshida
+     369P/           Hill                             1.953  0.555   10.3    9.2   2.690  JPL 22          MPC    JPL    Yoshida
+330  370P/           NEAT                             2.503  0.613   19.4   16.4   2.467  JPL 27          MPC    JPL    Yoshida
+     371P/           LINEAR-Skiff                     2.174  0.478   17.4    8.5   2.749  JPL 25          MPC    JPL    Yoshida
+     372P/           McNaught                         3.804  0.154    9.5    9.5   2.969  JPL 34          MPC    JPL    Yoshida
+     373P/           Rinner                           2.305  0.394   13.8    7.4   2.895  JPL 25          MPC    JPL    Yoshida
+     374P/           Larson                           2.671  0.463   10.8   11.1   2.749  JPL 21          MPC    JPL    Yoshida
+     375P/           Hill                             1.892  0.660   17.4   13.1   2.418  JPL 12          MPC    JPL    Yoshida
+     376P/           LONEOS                           2.840  0.515    1.2   14.2   2.707  JPL 28          MPC    JPL    Yoshida
+     377P/           Scotti                           5.037  0.251    9.0   17.4   2.947  JPL 15          MPC    JPL    Yoshida
+     378P/           McNaught                         3.366  0.467   19.2   15.9   2.665  JPL 35          MPC    JPL    Yoshida
+     379P/           Spacewatch                       2.342  0.336   12.4    6.6   2.989  JPL 14          MPC    JPL    Yoshida
+340  380P/           PANSTARRS                        3.050  0.326    8.2    9.6   2.894  JPL 11          MPC    JPL    Yoshida
+     381P/           LINEAR-Spacewatch                2.283  0.679   28.5   19.0   2.240  JPL 17          MPC    JPL    Yoshida
+     382P/           Larson                           4.352  0.278    7.9   14.8   2.912  JPL 28          MPC    JPL    Yoshida
+     383P/           Christensen                      1.359  0.611   11.9    6.5   2.758  JPL 18          MPC    JPL    Yoshida
+     384P/           Kowalski                         1.120  0.615    7.3    5.0   2.958  JPL 21          MPC    JPL    Yoshida
+     385P/           Hill                             2.555  0.402   16.9    8.8   2.806  JPL 26          MPC    JPL    Yoshida
+     386P/           PANSTARRS                        2.358  0.418   15.2    8.2   2.831  JPL 13          MPC    JPL    Yoshida
+     387P/           Boattini                         1.267  0.736    8.9   10.5   2.369  JPL 19          MPC    JPL    Yoshida
+     388P/           Gibbs                            1.996  0.619   23.9   12.0   2.434  JPL 16          MPC    JPL    Yoshida
+     390P/           Gibbs                            1.699  0.707   18.5   14.0   2.313  JPL 21          MPC    JPL    Yoshida
+350  391P/           Kowalski                         4.119  0.121   21.3   10.1   2.866  JPL 27          MPC    JPL    Yoshida
+     392P/           LINEAR                           1.953  0.683    4.9   15.3   2.429  JPL 27          MPC    JPL    Yoshida
+     393P/           Spacewatch-Hill                  4.201  0.120   16.8   10.4   2.911  JPL 19          MPC    JPL    Yoshida
+     394P/           PANSTARRS                        2.736  0.369    8.5    9.0   2.878  JPL 3           MPC    JPL    Yoshida
+     395P/           Catalina-NEAT                    4.029  0.375    3.3   16.4   2.867  JPL 37          MPC    JPL    Yoshida
+     396P/           Leonard                          3.983  0.418    5.4   17.9   2.835  JPL 7           MPC    JPL    Yoshida
+     397P/           Lemmon                           2.368  0.391   11.1    7.7   2.900  JPL 4           MPC    JPL    Yoshida
+     398P/           Boattini                         1.317  0.580   11.0    5.6   2.900  JPL 4           MPC    JPL    Yoshida
+     399P/           PANSTARRS                        2.138  0.440   13.3    7.5   2.860  JPL 37          MPC    JPL    Yoshida
+     400P/           PANSTARRS                        2.107  0.409   10.9    6.7   2.943  JPL 7           MPC    JPL    Yoshida
+360  401P/           McNaught                         2.380  0.582   12.9   13.6   2.572  JPL 29          MPC    JPL    Yoshida
+     402P/           LINEAR                           3.938  0.438   30.9   18.6   2.534  JPL 63          MPC    JPL    Yoshida
+     403P/           Catalina                         2.685  0.503   12.3   12.6   2.683  JPL 13          MPC    JPL    Yoshida
+     404P/           Bressi                           4.825  0.089    9.8   12.2   2.963  JPL 37          MPC    JPL    Yoshida
+     405P/           Lemmon                           1.118  0.690    9.4    6.8   2.632  JPL 48          MPC    JPL    Yoshida
+     406P/           Gibbs                            1.465  0.574    1.4    6.4   2.844  JPL 18          MPC    JPL    Yoshida
+     407P/           PANSTARRS                        2.125  0.385    4.9    6.4   3.005  JPL 15          MPC    JPL    Yoshida
+     408P/           Novichonok-Gerke                 3.558  0.266   19.2   10.7   2.830  JPL 47          MPC    JPL    Yoshida
+     409P/           LONEOS-Hill                      1.778  0.710   16.9   15.2   2.311  JPL 29          MPC    JPL    Yoshida

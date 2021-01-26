@@ -1,0 +1,189 @@
+From: horizons@ssd.jpl.nasa.gov (Horizons Ephemeris System)
+Subject: [Horizons] SMALL BODY #C(   @0)_T(322P/SOHO) (1/1)
+Date: January 14, 2021 at 12:50:57 PM PST
+
+Automated mail xmit by MAIL_REQUEST, PID= 19384 Thu Jan 14 12:50:57 2021
+++++++++++++++++++++++++++++++++ (part 1 of 1)  +++++++++++++++++++++++++++++++
+*******************************************************************************
+JPL/HORIZONS                      322P/SOHO                2021-Jan-14 12:50:57
+Rec #:90001235 (+COV) Soln.date: 2016-Oct-27_11:29:40    # obs: 318 (1999-2015)
+
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+
+ EPOCH=  2457179.5 ! 2015-Jun-06.0000000 (TDB)    RMSW= n.a.
+  EC= .9786764762641812   QR= .0536555610873724   TP= 2457269.564054383
+  OM= 359.5244877541514   W= 49.04947677107452    IN= 12.58923564712983
+  A= 2.516261465605842    MA= 337.7606588347672   ADIST= 4.978867370124313
+  PER= 3.9915526722305    N= .246928041           ANGMOM= .005605008
+  DAN= .06468             DDN= .29609             L= 47.8826253
+  B= 9.4751508            MOID= .0921698          TP= 2015-Sep-04.0640543830
+
+Comet physical (GM= km^3/s^2; RAD= km):
+  GM= n.a.                RAD= n.a.
+  M1=  19.      M2=  n.a.     k1=  10.    k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= JPL#10, data arc: 1999-09-04 to 2015-08-08
+2: k1=10.;
+*******************************************************************************
+
+
+*******************************************************************************
+Close-approach / MAIL_REQUEST Thu Jan 14 12:50:57 2021   Pasadena, USA / Horizons
+*******************************************************************************
+Object name     : 322P/SOHO                       {source: JPL#10-DASTCOM}
+Start time      : A.D. 2025-Jan-01 00:00:00.0 TDB
+Stop  time      : A.D. 2038-Dec-31 00:00:00.0 TDB
+Planetary model : DE-0431LE-0431
+Small body model: SB431-N16
+Small-body perts: Yes                             {source: SB431-N16}
+Cut-off, TCA3Sg : 14400 minutes
+Cut-off, planets: 0., 0., .33, 0., 0., 0., 0., 0., 0., 0. (au)
+Cut-off,asteroid: .05 au
+Units conversion: 1 au= 149597870.700 km, c= 299792.458 km/s, 1 day= 86400.0 s
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+ EPOCH=  2457179.5 ! 2015-Jun-06.0000000 (TDB)    RMSW= n.a.                  
+  EC= .9786764762641812   QR= .0536555610873724   TP= 2457269.564054383       
+  OM= 359.5244877541514   W= 49.04947677107452    IN= 12.58923564712983       
+ Equivalent ICRF heliocentric equatorial cartesian coordinates (au, au/d):
+  X=-8.726486151366895E-01  Y=-1.414462651404379E+00  Z=-1.030679658250957E+00
+ VX= 5.777807572385321E-01 VY=-9.180529490621137E+00 VZ=-6.675636124022715E+00
+Comet physical (GM= km^3/s^2; RAD= km):                                        
+  GM= n.a.                RAD= n.a.                                           
+  M1=  19.      M2=  n.a.     k1=  10.    k2= n.a.     PHCOF= n.a.            
+Orbit solution square-root covariance at EPOCH (ESTL= state only):
+   SRC=  1.012999685973081E-9   -1.860144122459241E-7   4.679686214417599E-7
+        -7.394837436383326E-7    1.864127732822536E-6   .0003453358047582807
+         3.401788940773589E-6   -8.565525554693745E-6  -.0006976207926737418
+         2.318772075913126E-5    1.228491652165104E-6  -3.08840106021779E-6
+         8.940810561115519E-5   -2.121288040605506E-5   3.824026487745773E-5
+         2.381531240050519E-6   -5.99988529738399E-6   -.0004229229401824956
+         .0003164723486683597   -.0002910799635618083   2.423693116447822E-5
+****************************************************************************************************************************************************
+Close-approach results:
+
+ Time (JDTDB)         Date (TDB)      Body   CA Dist  MinDist  MaxDist   Vrel  TCA3Sg SMaA-1Sg SMiA-1Sg     B.T       B.R     Theta0  Nsigs  P_i/p
+------------- ----------------------  -----  -------  -------  -------  ------ ------ -------- -------- ---------- ---------- ------ ------ -------
+2464489.03778 A.D. 2035 Jun 10.53778  Earth  .271034  .270458  .271611  36.401  48.65 37613.33 603.4700 -22310357.  31707836. -10.49 44932. .000000
+****************************************************************************************************************************************************
+Column meaning:
+
+Time (JDTDB) =
+  Nominal close-approach date as a Julian Day Number (Barycentric Dynamical
+Time).
+
+Date (TDB) =
+  Nominal close-approach time expressed as a calendar date (Barycentric
+Dynamical Time). Calendar dates prior to 1582-Oct-15 are in the Julian calendar
+system.  Later calendar dates are in the Gregorian system.
+
+Body =
+  Name or abbreviation of the planetary body or major asteroid being closely
+approached by the selected small-body.
+
+CA Dist =
+  Nominal geometric close-approach distance at the close-approach time,
+uncorrected for light travel time.  Units: au
+
+MinDist =
+  Minimum close-approach distance (formal 3-standard-deviations from
+linearized covariance mapping). Units: au
+
+MaxDist =
+  Maximum close-approach distance (formal 3 standard-deviations from
+linearized covariance mapping). Units: au
+
+Vrel =
+  Relative velocity of the object and the body it is approaching at the
+nominal time of close-approach. Units: km/s
+
+TCA3Sg =
+  Uncertainty in time of close-approach (3 standard-deviations).
+Units: minutes
+
+SMaA-1Sg =
+  1-sigma error ellipse semi-major axis projected into the B-plane at nominal
+time of closest-approach. Units: km
+
+SMiA-1Sg  =
+  1-sigma error ellipse semi-minor axis projected into the B-plane at nominal
+time of closest-approach. Units: km
+
+B.T   =
+  Component of the 1-sigma error ellipse projected onto the B-plane T-axis
+at the nominal time of closest approach (B_dot_T). Units: km
+
+B.R   =
+  Component of the 1-sigma error ellipse projected onto the B-plane R-axis
+at the nominal time of closest approach (B_dot_R). Units: km
+
+Theta0 =
+  Orientation angle of error ellipse in the B-plane; the smallest angle from
+the T axis to the major-axis of the error ellipse in the direction of the
++R axis. This angle is positive when clockwise around the -S axis, negative
+when counter-clockwise.  Units: degrees
+
+Nsigs  =
+  The number of standard deviations (sigmas) required for the error ellipse
+to intersect the body being closely approached. Units: STANDARD DEVIATIONS
+
+P_i/p  =
+  Linearized probability of the object impacting the body. Non-zero values
+less than approximately 0.001 may not be numerically significant due to the
+linearization process.
+
+                        +++++++++++++++++++++++++++++
+
+IMPORTANT NOTE:
+
+  All tabulated statistical quantities (MinDist, MaxDist, TCA3Sg, SMaA, SMiA,
+B.T, B.R, Theta0, Nsigs and P_i/p) are based on a linearized covariance mapping
+in which higher-order (small) terms in the variational partial derivatives of
+the equations of motion are dropped.
+
+  Due to possible non-linearities in any given objects' actual dynamics, this
+can result in significant errors at epochs distant in time from the solution
+epoch.  Consequently, long linearized mappings (thousands, or hundreds, or
+sometimes just dozens of years from the present time) should be considered
+approximate, pending additional analysis, especially in these cases:
+
+          A) objects with numerous close planetary encounters (dozens),
+          B) objects with very close planetary encounters (< 0.01 au),
+          C) objects with very short data arcs (days or weeks).
+
+  While linearized projections will tend to indicate such cases with obviously
+rapid uncertainty growth, the specific numbers output can tend to understate
+orbit uncertainty knowledge.
+
+  "Nominal" here effectively means "highest-probability for the given orbit
+solution"), although there can be other possible orbits of equal probability.
+
+B-PLANE:
+
+  The B-plane mentioned above is defined by the three orthogonal unit vectors
+S, R, and T. +S is parallel to the hyperbolic approach asymptote with origin
+at the target body's center of mass. T is a vector normal to S in the planetary
+ephemeris equator plane (ICRF/"EME2000"), so in the direction of celestial
+longitude. R = S x T, completing the right-handed system (-S = R x T) in the
+general direction of decreasing celestial latitude ("south"). The B-vector is
+the vector in the R-T plane from the body center to the point where the
+incoming objects' hyperbolic velocity asymptote pierces the R-T plane. The
+B-plane is defined only when the incoming object is hyperbolic with respect to
+the body.
+
+                        ++++++++++++++++++++++++++++
+
+
+Computations by ...
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+    Information  : https://ssd.jpl.nasa.gov/
+    Documentation: https://ssd.jpl.nasa.gov/?horizons_doc
+    Connect      : https://ssd.jpl.nasa.gov/?horizons (browser)
+                   telnet ssd.jpl.nasa.gov 6775       (command-line)
+                   e-mail command interface available
+                   Script and CGI interfaces available
+    Author       : Jon.D.Giorgini@jpl.nasa.gov
+****************************************************************************************************************************************************

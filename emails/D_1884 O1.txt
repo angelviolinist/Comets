@@ -1,0 +1,71 @@
+From: horizons@ssd.jpl.nasa.gov (Horizons Ephemeris System)
+Subject: [Horizons] SMALL BODY #C(   @0)_T(Barnard (D/1884 O1)) (1/1)
+Date: January 14, 2021 at 8:49:49 PM PST
+
+Automated mail xmit by MAIL_REQUEST, PID= 8477 Thu Jan 14 20:49:49 2021
+++++++++++++++++++++++++++++++++ (part 1 of 1)  +++++++++++++++++++++++++++++++
+*******************************************************************************
+JPL/HORIZONS                 Barnard (D/1884 O1)           2021-Jan-14 20:49:49
+Rec #:90001628 (+COV) Soln.date: 2020-Nov-11_11:11:30       # obs: 19 (89 days)
+
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+
+ EPOCH=  2409411.5 ! 1884-Aug-23.0000000 (TDB)    RMSW= n.a.
+  EC= .5835943516873249   QR= 1.279598209060342   TP= 2409405.4729341888
+  OM= 6.750708428287171   W= 301.0537628492638    IN= 5.473222587196599
+  A= 3.072960739714807    MA= 1.102743457920774   ADIST= 4.866323270369271
+  PER= 5.3869597663504    N= .182965221           ANGMOM= .024487262
+  DAN= 1.55749            DDN= 2.89912            L= 307.9203045
+  B= -4.6869175           MOID= .28009            TP= 1884-Aug-16.9729341888
+
+Comet physical (GM= km^3/s^2; RAD= km):
+  GM= n.a.                RAD= n.a.
+  M1=  n.a.     M2=  n.a.     k1= n.a.    k2= n.a.     PHCOF= n.a.
+
+COMET comments 
+1: soln ref.= JPL#1, data arc: 1884-07-26 to 1884-10-23
+2:  
+*******************************************************************************
+
+
+*******************************************************************************
+Close-approach / MAIL_REQUEST Thu Jan 14 20:49:49 2021   Pasadena, USA / Horizons
+*******************************************************************************
+Object name     : Barnard (D/1884 O1)             {source: JPL#1-DASTCOM}
+Start time      : A.D. 2025-Jan-01 00:00:00.0 TDB
+Stop  time      : A.D. 2038-Dec-31 00:00:00.0 TDB
+Planetary model : DE-0431LE-0431
+Small body model: SB431-N16
+Small-body perts: Yes                             {source: SB431-N16}
+Cut-off, TCA3Sg : 14400 minutes
+Cut-off, planets: 0., 0., .33, 0., 0., 0., 0., 0., 0., 0. (au)
+Cut-off,asteroid: .05 au
+Units conversion: 1 au= 149597870.700 km, c= 299792.458 km/s, 1 day= 86400.0 s
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+ EPOCH=  2409411.5 ! 1884-Aug-23.0000000 (TDB)    RMSW= n.a.                  
+  EC= .5835943516873249   QR= 1.279598209060342   TP= 2409405.4729341888      
+  OM= 6.750708428287171   W= 301.0537628492638    IN= 5.473222587196599       
+ Equivalent ICRF heliocentric equatorial cartesian coordinates (au, au/d):
+  X= 8.728414830907774E-01  Y=-8.168829755275056E-01  Z=-4.616512446423823E-01
+ VX= 2.876120603882534E-02 VY= 1.966989441793135E-02 VZ= 1.047880386608406E-02
+Comet physical (GM= km^3/s^2; RAD= km):                                        
+  GM= n.a.                RAD= n.a.                                           
+  M1=  n.a.     M2=  n.a.     k1= n.a.    k2= n.a.     PHCOF= n.a.            
+Orbit solution square-root covariance at EPOCH (ESTL= state only):
+   SRC=  8.783304588815521E-6    3.672292155974169E-6   1.54666748997863E-6
+         1.697486296459498E-5    4.557436425150951E-6   .0002598059621592309
+         6.687073259760772E-6    3.436935021941943E-7   .001005440316945021
+         1.388521342767879E-5   -6.914931031552515E-6  -3.418909932478191E-6
+         .0009071777776311528   -1.308852046144175E-5   2.833679472122887E-5
+         .0003083924675349227    8.290426033833477E-5   .002827423120805126
+        -.0001055250148343998    8.165607247653728E-5   2.179400915729529E-5
+****************************************************************************************************************************************************
+Close-approach results:
+
+
+ NOTE: post-epoch CA list was truncated due to Earth TCA3Sg exceeding the set limit.
+
+ No close-approaches detected (within specified time and distance limits).
+
+****************************************************************************************************************************************************
