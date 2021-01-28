@@ -17,6 +17,7 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 # dictionary: key maps to name, time of close approach, close approach distance(AU)
 
 database = {
+    # format is like
     # '289P': ['Blanpain','2035 Nov 06.67816', .081704]
 }
 
@@ -26,14 +27,17 @@ for f in onlyfiles:
     for idx,line in enumerate(source):
         # get name from txt file
         if 'JPL/HORIZONS' in line:
-            linesplit = line.split()[1].split('/')
-            name = linesplit[1]
-            # make sure name doesn't have a number at the end
-            check_name = line.split()[2]
-            try:
-                pd.to_datetime(check_name)
-            except:
-                name = name + ' ' + check_name
+            if '/' in line.split()[1]:
+                linesplit = line.split()[1].split('/')
+                name = linesplit[1]
+                # make sure name doesn't have a number at the end
+                check_name = line.split()[2]
+                try:
+                    pd.to_datetime(check_name)
+                except:
+                    name = name + ' ' + check_name
+            else:
+                name = line.split()[2][1:] + ' ' + line.split()[3][:-1]
         if 'Time (JDTDB)' in line:
             row = idx
             break
@@ -56,21 +60,16 @@ for f in onlyfiles:
             database[f.rstrip('.txt')] = [name, date, dist]
             break
 
-comets = []
-# close_approach_time = []
-# close_approach_distance = []
-fig, ax = plt.subplots()
-for key in database.keys():
-    ax.plot_date(database[key][1], database[key][2])
-    # ax.legend(key)
+label = []
+for idx,key in enumerate(database.keys()):
+    plt.plot_date(database[key][1], database[key][2])
+    label.append(key + ' ' + database[key][0])
     print(key)
-    # comets.append(key)
-    # close_approach_time.append(database[key][1])
-    # close_approach_distance.append(database[key][2])
+    print(database[key][1])
 
 plt.title('All comets')
 plt.xlabel('Dates')
 plt.ylabel('Distance(AU)')
+plt.legend(label,bbox_to_anchor=(1,1),loc='upper left')
 
-# plt.plot_date(close_approach_time, close_approach_distance)
 plt.show()

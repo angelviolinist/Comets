@@ -24,4 +24,4 @@ for t in targets:
 #     email.write("'" + t + "'\n")
 # email.write("OBJ_DATA   = 'YES'\n" +
 #
-# "MAKE_EPHEM = 'YES'\n" +
+# "MAKE_EPHEM = 'YES'\n"

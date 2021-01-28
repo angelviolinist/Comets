@@ -1,0 +1,86 @@
+ Current integration step:
+  2464717.63681  2036 Jan 25.13681     1.4023070
+*******************************************************************************
+Ephemeris / PORT_LOGIN Thu Jan 28 11:28:07 2021 Pasadena, USA    / Horizons
+*******************************************************************************
+Target body name: 289P/Blanpain                   {source: JPL#K143/1}
+Center body name: Earth (399)                     {source: DE431}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2035-May-06 16:16:33.0000 TDB
+Stop  time      : A.D. 2036-May-06 16:16:33.0000 TDB
+Step-size       : 12 steps
+*******************************************************************************
+Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 6378.1 x 6378.1 x 6356.8 km     {Equator, meridian, pole}    
+Small perturbers: Yes                             {source: SB431-N16}
+Output units    : AU-D
+Output type     : GEOMETRIC cartesian states
+Output format   : 6 (LT, range, and range-rate)
+EOP file        : eop.210127.p210420
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2021-JAN-27. PREDICTS-> 2021-APR-19
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2453441.5 ! 2005-Mar-12.0000000 (TDB)    RMSW= n.a.                  
+   EC= .6758454567507767   QR= .9982867235254588   TP= 2452985.1673674532      
+   OM= 69.32908009821058   W= 9.059068794969555    IN= 5.93259749905385        
+  Equivalent ICRF heliocentric equatorial cartesian coordinates (au, au/d):
+   X=-2.669711112956933E+00  Y=-2.840623543711962E+00  Z=-1.069867039586935E+00
+  VX= 1.143362749748670E-03 VY=-6.267974395843848E-03 VZ=-3.118173224471652E-03
+Comet physical (GM= km^3/s^2; RAD= km):                                        
+   GM= n.a.                RAD= n.a.                                           
+   M1=  22.      M2=  n.a.     k1=  4.5    k2= n.a.     PHCOF= n.a.            
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                     LT,                     RG,                     RR,
+**************************************************************************************************************************
+$$SOE
+2464454.178159722, A.D. 2035-May-06 16:16:33.0000,  1.598259985063719E-02,  2.767301380317945E+00, -1.983884998012435E-02,
+2464484.678159722, A.D. 2035-Jun-06 04:16:33.0000,  1.243189019869070E-02,  2.152515061898790E+00, -2.019988470860822E-02,
+2464515.178159722, A.D. 2035-Jul-06 16:16:33.0000,  8.966369316820660E-03,  1.552478721782493E+00, -1.889523343455858E-02,
+2464545.678159722, A.D. 2035-Aug-06 04:16:33.0000,  5.862950197133612E-03,  1.015138358270064E+00, -1.613288129722401E-02,
+2464576.178159722, A.D. 2035-Sep-05 16:16:33.0000,  3.343928220424833E-03,  5.789832234144840E-01, -1.236264984505159E-02,
+2464606.678159722, A.D. 2035-Oct-06 04:16:33.0000,  1.511627449257888E-03,  2.617301794420560E-01, -8.514600681904591E-03,
+2464637.178159722, A.D. 2035-Nov-05 16:16:33.0000,  4.737163207762598E-04,  8.202143835259809E-02, -6.350956741664844E-04,
+2464667.678159722, A.D. 2035-Dec-06 04:16:33.0000,  1.252284753750207E-03,  2.168263836916312E-01,  5.791772145145656E-03,
+2464698.178159722, A.D. 2036-Jan-05 16:16:33.0000,  2.118516230412334E-03,  3.668097145291599E-01,  3.812077441526525E-03,
+2464728.678159722, A.D. 2036-Feb-05 04:16:33.0000,  2.688912329325204E-03,  4.655707375542485E-01,  3.393673261524834E-03,
+2464759.178159722, A.D. 2036-Mar-06 16:16:33.0000,  3.630847531299110E-03,  6.286617621029568E-01,  8.036581503575150E-03,
+2464789.678159722, A.D. 2036-Apr-06 04:16:33.0000,  5.596560790166009E-03,  9.690144622523500E-01,  1.410296287681194E-02,
+2464820.178159722, A.D. 2036-May-06 16:16:33.0000,  8.480784310627114E-03,  1.468402284252992E+00,  1.827382004987943E-02,
+$$EOE
+**************************************************************************************************************************
+Coordinate system description:
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: obliquity of 84381.448 arcseconds (IAU76) wrt ICRF equator
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning [1 au= 149597870.700 km, 1 day= 86400.0 s]:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      LT     One-way down-leg Newtonian light-time (day)
+      RG     Range; distance from coordinate center (au)
+      RR     Range-rate; radial velocity wrt coord. center (au/day)
+
+Geometric states/elements have no aberrations applied.
+
+
+ Computations by ...
+     Solar System Dynamics Group, Horizons On-Line Ephemeris System
+     4800 Oak Grove Drive, Jet Propulsion Laboratory
+     Pasadena, CA  91109   USA
+     Information  : https://ssd.jpl.nasa.gov/
+     Documentation: https://ssd.jpl.nasa.gov/?horizons_doc
+     Connect      : https://ssd.jpl.nasa.gov/?horizons (browser)
+                    telnet ssd.jpl.nasa.gov 6775       (command-line)
+                    e-mail command interface available
+                    Script and CGI interfaces available
+     Author       : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
