@@ -37,7 +37,9 @@ for f in onlyfiles:
                 except:
                     name = name + ' ' + check_name
             else:
-                name = line.split()[2][1:] + ' ' + line.split()[3][:-1]
+                name = line.split()[1]
+        if 'Rec #:' in line:
+            rec = line.split()[1].replace('#:','')
         if 'Time (JDTDB)' in line:
             row = idx
             break
@@ -46,7 +48,7 @@ for f in onlyfiles:
         if idx == row + 2:
             linesplit = line.split()
             # get close approach distance
-            dist = linesplit[6]
+            dist = float(linesplit[6])
             
             # get and format the time of close approach correctly
             raw_date = linesplit[2] + '-' + linesplit[3] + '-' + linesplit[4]
@@ -55,21 +57,42 @@ for f in onlyfiles:
             minutes = modf(time[0] * 60)
             minute = int(minutes[1])
             second = round(minutes[0] * 60)
-            date = raw_date[:11] + ' ' + format_time(hour) + ':' + format_time(minute) + ':' + format_time(second)
-            date = [pd.to_datetime(date)]
-            database[f.rstrip('.txt')] = [name, date, dist]
+            string_date = raw_date[:11] + ' ' + format_time(hour) + ':' + format_time(minute) + ':' + format_time(second)
+            date = [pd.to_datetime(string_date)]
+            database[f.rstrip('.txt')] = [name, date, dist, string_date, rec]
             break
 
+# plt.figure(figsize=(5,4))
 label = []
 for idx,key in enumerate(database.keys()):
     plt.plot_date(database[key][1], database[key][2])
     label.append(key + ' ' + database[key][0])
-    print(key)
-    print(database[key][1])
 
 plt.title('All comets')
 plt.xlabel('Dates')
 plt.ylabel('Distance(AU)')
-plt.legend(label,bbox_to_anchor=(1,1),loc='upper left')
+plt.yscale('log')
+plt.legend(label,bbox_to_anchor=(1.0,1,0.005,0.005),loc='upper left')
 
 plt.show()
+
+# for key in database.keys():
+#     print(key)
+#     print(database[key][4])
+#     print(database[key][3])
+
+import openpyxl
+
+wb = openpyxl.Workbook()
+ws = wb.active
+ws['A1'] = 'Comet'
+ws['B1'] = 'Name'
+ws['C1'] = 'Date'
+ws['D1'] = 'Distance(AU)'
+for idx,key in enumerate(database.keys()):
+    ws['A' + str(idx + 2)] = key
+    ws['B' + str(idx + 2)] = database[key][0]
+    ws['C' + str(idx + 2)] = database[key][3]
+    ws['D' + str(idx + 2)] = database[key][2]
+wb.save('table_approaches.xlsx')
+wb.close()

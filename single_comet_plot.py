@@ -1,7 +1,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import argparse
+from os import listdir
+from os.path import isfile, join
 
-comet = '289P';
+parser = argparse.ArgumentParser(description='Select comet')
+parser.add_argument('comet', type=str, ) # help='Select a comet from the following:' + [f for ])
+args = parser.parse_args()
+# comet = '2P';
+comet = args.comet
 
 mypath = '/Users/angelviolinist/NASA/telnet/' + comet + '.txt'
 source = open(mypath,'r')
