@@ -16,10 +16,7 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 # dictionary: key maps to name, time of close approach, close approach distance(AU)
 
-database = {
-    # format is like
-    # '289P': ['Blanpain','2035 Nov 06.67816', .081704]
-}
+database = {}
 
 for f in onlyfiles:
     source = open(mypath + f,'r')
@@ -62,7 +59,6 @@ for f in onlyfiles:
             database[f.rstrip('.txt')] = [name, date, dist, string_date, rec]
             break
 
-# plt.figure(figsize=(5,4))
 label = []
 for idx,key in enumerate(database.keys()):
     plt.plot_date(database[key][1], database[key][2])
@@ -75,24 +71,3 @@ plt.yscale('log')
 plt.legend(label,bbox_to_anchor=(1.0,1,0.005,0.005),loc='upper left')
 
 plt.show()
-
-# for key in database.keys():
-#     print(key)
-#     print(database[key][4])
-#     print(database[key][3])
-
-import openpyxl
-
-wb = openpyxl.Workbook()
-ws = wb.active
-ws['A1'] = 'Comet'
-ws['B1'] = 'Name'
-ws['C1'] = 'Date'
-ws['D1'] = 'Distance(AU)'
-for idx,key in enumerate(database.keys()):
-    ws['A' + str(idx + 2)] = key
-    ws['B' + str(idx + 2)] = database[key][0]
-    ws['C' + str(idx + 2)] = database[key][3]
-    ws['D' + str(idx + 2)] = database[key][2]
-wb.save('table_approaches.xlsx')
-wb.close()
