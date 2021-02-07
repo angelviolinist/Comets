@@ -26,6 +26,7 @@ def get_data(mypath):
             linesplit = line.split(', ')
             dates.append(pd.to_datetime(linesplit[1].replace('A.D. ','')))
             distances.append(float(linesplit[3].strip()))
+    source.close()
     return dates, distances
 
 # for single comet plots
@@ -55,7 +56,3 @@ plt.ylabel('Distance(AU)')
 plt.yscale(args.space)
 
 plt.show()
-
-
-
-

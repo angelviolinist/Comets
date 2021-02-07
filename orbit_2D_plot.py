@@ -28,7 +28,8 @@ def data(target):
             linesplit = line.split(', ')
             x.append(float(linesplit[2]))
             y.append(float(linesplit[3]))
-            
+    
+    source.close()
     return x,y
 
 fig, ax = plt.subplots()

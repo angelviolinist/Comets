@@ -58,6 +58,7 @@ for f in onlyfiles:
             date = [pd.to_datetime(string_date)]
             database[f.rstrip('.txt')] = [name, date, dist, string_date, rec]
             break
+    source.close()
 
 label = []
 for idx,key in enumerate(database.keys()):
