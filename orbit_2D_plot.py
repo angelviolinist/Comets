@@ -5,8 +5,8 @@ from os import listdir
 from os.path import isfile, join
 
 parser = argparse.ArgumentParser(description='Select comet')
-parser.add_argument('comet', type=str)
-parser.add_argument('comet_type', type=str, nargs='?', default='jupiter')
+parser.add_argument('comet', type=str, help='Enter a comet name from the position directory')
+parser.add_argument('comet_type', type=str, nargs='?', default='jupiter', help='Enter jupiter or long')
 args = parser.parse_args()
 comet = args.comet
 
@@ -65,7 +65,7 @@ if args.comet_type == 'jupiter':
         plt.plot(x3, y3, linewidth=2.5)
         label.append('Earth')
         label.append('Jupiter')
-        plt.title('All short comet orbits')
+        plt.title('All Jupiter family comet orbits')
         plt.legend(label,bbox_to_anchor=(1.0,1,0.005,0.005), loc='upper left')
         
 elif args.comet_type == 'long':
@@ -95,7 +95,7 @@ elif args.comet_type == 'long':
 
         plt.plot(x2, y2, linewidth=2.5)
         label.append('Earth')
-        plt.title('All long comet orbits')
+        plt.title('All long period comet orbits')
         plt.legend(label,bbox_to_anchor=(1.0,1,0.005,0.005), loc='upper left')
 
 circle1 = plt.Circle((0, 0), 0.25, color='y')

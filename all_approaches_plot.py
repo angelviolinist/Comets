@@ -6,6 +6,7 @@ from os.path import isfile, join
 
 parser = argparse.ArgumentParser(description='Select comet')
 parser.add_argument('comet', type=str, help='Enter a comet name from the telnet directory')
+parser.add_argument('comet_type', type=str, nargs='?', default='jupiter', help='Enter jupiter or long')
 parser.add_argument('space', type=str, nargs='?', default='log', help='For y axis: Enter log for logspace or linear for linspace')
 args = parser.parse_args()
 
@@ -29,30 +30,54 @@ def get_data(mypath):
     source.close()
     return dates, distances
 
-# for single comet plots
-if args.comet != 'all':
+if args.comet_type == 'jupiter':
+    # for single comet plots
+    if args.comet != 'all':
     
-    mypath = '/Users/angelviolinist/NASA/telnet/' + args.comet + '.txt'
-    dates, distances = get_data(mypath)
+        mypath = '/Users/angelviolinist/NASA/telnet/' + args.comet + '.txt'
+        dates, distances = get_data(mypath)
 
-    plt.title('Comet ' + args.comet)
-    plt.plot_date(dates, distances)
-    
-else:
-    
-    mypath = '/Users/angelviolinist/NASA/telnet/'
-    onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
-    label = []
-
-    for f in onlyfiles:
-        dates, distances = get_data(mypath + f)
+        plt.title('Comet ' + args.comet)
         plt.plot_date(dates, distances)
-        label.append(f.replace('.txt',''))
-    plt.title('All comet approaches')
-    plt.legend(label,bbox_to_anchor=(1.0,1,0.005,0.005),loc='upper left')
+    
+    else:
+    
+        mypath = '/Users/angelviolinist/NASA/telnet/'
+        onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+        label = []
+
+        for f in onlyfiles:
+            dates, distances = get_data(mypath + f)
+            plt.plot_date(dates, distances)
+            label.append(f.replace('.txt',''))
+        plt.title('All Jupiter family comet approaches')
+        plt.legend(label,bbox_to_anchor=(1.0,1,0.005,0.005),loc='upper left')
+
+elif args.comet_type == 'long':
+    # for single comet plots
+    if args.comet != 'all':
+    
+        mypath = '/Users/angelviolinist/NASA/telnet/long/' + args.comet + '.txt'
+        dates, distances = get_data(mypath)
+
+        plt.title('Comet ' + args.comet)
+        plt.plot_date(dates, distances)
+    
+    else:
+    
+        mypath = '/Users/angelviolinist/NASA/telnet/long/'
+        onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+        label = []
+
+        for f in onlyfiles:
+            dates, distances = get_data(mypath + f)
+            plt.plot_date(dates, distances)
+            label.append(f.replace('.txt',''))
+        plt.title('All long period comet approaches')
+        plt.legend(label,bbox_to_anchor=(1.0,1,0.005,0.005),loc='upper left')
     
 plt.xlabel('Dates')
-plt.ylabel('Distance(AU)')
+plt.ylabel('Distance(AU) to Earth')
 plt.yscale(args.space)
 
 plt.show()
