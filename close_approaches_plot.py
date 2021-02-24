@@ -11,7 +11,7 @@ def format_time(raw):
         out = str(raw)
     return out
 
-mypath = '/Users/angelviolinist/NASA/emails/'
+mypath = '/Users/angelviolinist/NASA/emails/jupiter/'
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 # dictionary: key maps to name, time of close approach, close approach distance(AU)
@@ -35,9 +35,9 @@ for f in onlyfiles:
                     name = name + ' ' + check_name
             else:
                 name = line.split()[1]
-        if 'Rec #:' in line:
+        elif 'Rec #:' in line:
             rec = line.split()[1].replace('#:','')
-        if 'Time (JDTDB)' in line:
+        elif 'Time (JDTDB)' in line:
             row = idx
             break
     source.seek(0)
@@ -62,7 +62,14 @@ for f in onlyfiles:
 
 label = []
 for idx,key in enumerate(database.keys()):
-    plt.plot_date(database[key][1], database[key][2])
+    if idx > 29:
+        plt.plot_date(database[key][1], database[key][2], ',')
+    elif idx > 19:
+        plt.plot_date(database[key][1], database[key][2], 'v')
+    elif idx > 9:
+        plt.plot_date(database[key][1], database[key][2], '^')
+    else:
+        plt.plot_date(database[key][1], database[key][2])
     label.append(key + ' ' + database[key][0])
 
 plt.title('All comets')

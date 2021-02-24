@@ -15,7 +15,7 @@ def data(target):
     for idx,line in enumerate(source):
         if '$$SOE' in line:
             start = idx
-        if '$$EOE' in line:
+        elif '$$EOE' in line:
             end = idx
             break
     source.seek(0)
@@ -35,13 +35,13 @@ def plotting():
         x1, y1 = data('position/' + args.comet_type + '/' + args.comet)
         x2, y2 = data('position/399')
         plt.plot(x1, y1)
-        plt.plot(x2, y2)
+        plt.plot(x2, y2, color = 'c')
         
         plt.title('Comet ' + args.comet)
         
         if args.comet_type == 'jupiter':
             x3, y3 = data('position/599')
-            plt.plot(x3, y3)
+            plt.plot(x3, y3, color = 'm')
             plt.legend([args.comet, 'Earth', 'Jupiter'])
         else:
             plt.legend([args.comet, 'Earth'])
@@ -52,21 +52,25 @@ def plotting():
         label = []
         for idx,f in enumerate(onlyfiles):
             comet = f.replace('.txt','')
-            x1, y1 = data('position/' + args.comet_type + '/' + args.comet)
-            if idx > 9:
+            x1, y1 = data('position/' + args.comet_type + '/' + comet)
+            if idx > 29:
+                plt.plot(x1, y1, ':', linewidth = 0.8)
+            elif idx > 19:
+                plt.plot(x1, y1, '-.', linewidth = 0.5)
+            elif idx > 9:
                 plt.plot(x1, y1, '--')
             else:
                 plt.plot(x1, y1)
-            label.append(args.comet)
+            label.append(comet)
     
         x2, y2 = data('position/399')
 
-        plt.plot(x2, y2, linewidth=2.5)
+        plt.plot(x2, y2, linewidth = 2, color = 'c')
         label.append('Earth')
         
         if args.comet_type == 'jupiter':
             x3, y3 = data('position/599')
-            plt.plot(x3, y3, linewidth=2.5)
+            plt.plot(x3, y3, linewidth = 2, color = 'm')
             label.append('Jupiter')
             
         plt.title('All ' + args.comet_type + ' comet orbits')

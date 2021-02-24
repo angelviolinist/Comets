@@ -16,7 +16,7 @@ def get_data(mypath):
     for idx,line in enumerate(source):
         if '$$SOE' in line:
             start = idx
-        if '$$EOE' in line:
+        elif '$$EOE' in line:
             end = idx
             break
     source.seek(0)
@@ -46,9 +46,16 @@ def plotting():
         onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
         label = []
 
-        for f in onlyfiles:
+        for idx,f in enumerate(onlyfiles):
             dates, distances = get_data(mypath + f)
-            plt.plot_date(dates, distances)
+            if idx > 29:
+                plt.plot_date(dates, distances, marker = ',', markersize = 3)
+            elif idx > 19:
+                plt.plot_date(dates, distances, marker = 'v', markersize = 3)
+            elif idx > 9:
+                plt.plot_date(dates, distances, marker = '^', markersize = 3)
+            else:
+                plt.plot_date(dates, distances, markersize = 3)
             label.append(f.replace('.txt',''))
         plt.title('All ' + args.comet_type + ' comet approaches')
         plt.legend(label,bbox_to_anchor=(1.0,1,0.005,0.005),loc='upper left')

@@ -1,0 +1,203 @@
+From: horizons@ssd.jpl.nasa.gov (Horizons Ephemeris System)
+Subject: [Horizons] SMALL BODY #C(   @0)_T(321P/SOHO) (1/1)
+Date: January 14, 2021 at 12:50:57 PM PST
+
+Automated mail xmit by MAIL_REQUEST, PID= 19384 Thu Jan 14 12:50:56 2021
+++++++++++++++++++++++++++++++++ (part 1 of 1)  +++++++++++++++++++++++++++++++
+*******************************************************************************
+JPL/HORIZONS                      321P/SOHO                2021-Jan-14 12:50:56
+Rec #:90001234 (+COV) Soln.date: 2017-Jun-08_17:45:18     # obs: 91 (1997-2012)
+
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+
+ EPOCH=  2453458.5 ! 2005-Mar-29.0000000 (TDB)    RMSW= n.a.
+  EC= .9806622092195983   QR= .04692566940159335  TP= 2453347.3228246393
+  OM= 165.2691489466613   W= 172.4062039751661    IN= 19.7363116677891
+  A= 2.426630318554863    MA= 28.98773488123087   ADIST= 4.806334967708132
+  PER= 3.7801901267687    N= .26073458            ANGMOM= .005244353
+  DAN= 3.32675            DDN= .04713             L= 338.1166755
+  B= 2.5577099            MOID= .0859577          TP= 2004-Dec-07.8228246393
+
+Comet physical (GM= km^3/s^2; RAD= km):
+  GM= n.a.                RAD= n.a.
+  M1=  n.a.     M2=  n.a.     k1= n.a.    k2= n.a.     PHCOF= n.a.
+
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au):
+  AMRAT=  0.                                      DT=  0.
+  A1= 0.                  A2= -1.796364376787E-12 A3= 0.
+Standard model:
+  ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808
+
+COMET comments 
+1: soln ref.= JPL#3, data arc: 1997-05-01 to 2012-06-30
+2:  
+*******************************************************************************
+
+
+*******************************************************************************
+Close-approach / MAIL_REQUEST Thu Jan 14 12:50:56 2021   Pasadena, USA / Horizons
+*******************************************************************************
+Object name     : 321P/SOHO                       {source: JPL#3-DASTCOM}
+Start time      : A.D. 2025-Jan-01 00:00:00.0 TDB
+Stop  time      : A.D. 2038-Dec-31 00:00:00.0 TDB
+Planetary model : DE-0431LE-0431
+Small body model: SB431-N16
+Small-body perts: Yes                             {source: SB431-N16}
+Cut-off, TCA3Sg : 14400 minutes
+Cut-off, planets: 0., 0., .33, 0., 0., 0., 0., 0., 0., 0. (au)
+Cut-off,asteroid: .05 au
+Units conversion: 1 au= 149597870.700 km, c= 299792.458 km/s, 1 day= 86400.0 s
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+ EPOCH=  2453458.5 ! 2005-Mar-29.0000000 (TDB)    RMSW= n.a.                  
+  EC= .9806622092195983   QR= .04692566940159335  TP= 2453347.3228246393      
+  OM= 165.2691489466613   W= 172.4062039751661    IN= 19.7363116677891        
+ Equivalent ICRF heliocentric equatorial cartesian coordinates (au, au/d):
+  X=-1.835642789178958E+00  Y= 1.218609901677385E+00  Z= 2.503636926507201E-01
+ VX=-8.443126171354834E+00 VY= 1.463788154509265E+01 VZ= 1.831345692680372E+00
+Comet physical (GM= km^3/s^2; RAD= km):                                        
+  GM= n.a.                RAD= n.a.                                           
+  M1=  n.a.     M2=  n.a.     k1= n.a.    k2= n.a.     PHCOF= n.a.            
+Comet non-gravitational force model (AMRAT=m^2/kg;A1-A3=au/d^2;DT=days;R0=au): 
+  AMRAT=  0.                                      DT=  0.                     
+  A1= 0.                  A2= -1.796364376787E-12 A3= 0.                      
+Standard model:                                                               
+  ALN=  .1112620426   NK=  4.6142   NM=  2.15     NN=  5.093    R0=  2.808    
+Orbit solution square-root covariance at EPOCH (ESTL= state & A2):
+   SRC= -4.207282279513537E-9    3.08473041190772E-5   -7.485939301320885E-5
+        -3.150145994588338E-6    7.644844159970136E-6  -.0004950262527595721
+        -6.268726176666279E-6    1.518635483917184E-5   .001503057075926541
+        -.0001391222692057291    5.374417732380878E-6  -1.301674104178995E-5
+        -.001325014496185611     .003772986082507499   -.004695801014490085
+        -4.05562752471046E-6     9.843718428573284E-6  -6.974491798888299E-5
+         .00123036029250928     -.001394065711240264   -.001419119193961591
+         2.790339773315674E-5   -6.766309859611472E-5  -.002008148140185632
+         .001354744162872762    -.001426115794515137    .001524477307237231
+        -9.135626600006931E-13
+****************************************************************************************************************************************************
+Close-approach results:
+
+ Time (JDTDB)         Date (TDB)      Body   CA Dist  MinDist  MaxDist   Vrel  TCA3Sg SMaA-1Sg SMiA-1Sg     B.T       B.R     Theta0  Nsigs  P_i/p
+------------- ----------------------  -----  -------  -------  -------  ------ ------ -------- -------- ---------- ---------- ------ ------ -------
+2462957.69170 A.D. 2031 Apr 01.19170  Earth  .319376  .313380  .325398  34.366 445.59 324977.6 182029.3 -37087330. -26270034.  72.59 187.72 .000000
+****************************************************************************************************************************************************
+Column meaning:
+
+Time (JDTDB) =
+  Nominal close-approach date as a Julian Day Number (Barycentric Dynamical
+Time).
+
+Date (TDB) =
+  Nominal close-approach time expressed as a calendar date (Barycentric
+Dynamical Time). Calendar dates prior to 1582-Oct-15 are in the Julian calendar
+system.  Later calendar dates are in the Gregorian system.
+
+Body =
+  Name or abbreviation of the planetary body or major asteroid being closely
+approached by the selected small-body.
+
+CA Dist =
+  Nominal geometric close-approach distance at the close-approach time,
+uncorrected for light travel time.  Units: au
+
+MinDist =
+  Minimum close-approach distance (formal 3-standard-deviations from
+linearized covariance mapping). Units: au
+
+MaxDist =
+  Maximum close-approach distance (formal 3 standard-deviations from
+linearized covariance mapping). Units: au
+
+Vrel =
+  Relative velocity of the object and the body it is approaching at the
+nominal time of close-approach. Units: km/s
+
+TCA3Sg =
+  Uncertainty in time of close-approach (3 standard-deviations).
+Units: minutes
+
+SMaA-1Sg =
+  1-sigma error ellipse semi-major axis projected into the B-plane at nominal
+time of closest-approach. Units: km
+
+SMiA-1Sg  =
+  1-sigma error ellipse semi-minor axis projected into the B-plane at nominal
+time of closest-approach. Units: km
+
+B.T   =
+  Component of the 1-sigma error ellipse projected onto the B-plane T-axis
+at the nominal time of closest approach (B_dot_T). Units: km
+
+B.R   =
+  Component of the 1-sigma error ellipse projected onto the B-plane R-axis
+at the nominal time of closest approach (B_dot_R). Units: km
+
+Theta0 =
+  Orientation angle of error ellipse in the B-plane; the smallest angle from
+the T axis to the major-axis of the error ellipse in the direction of the
++R axis. This angle is positive when clockwise around the -S axis, negative
+when counter-clockwise.  Units: degrees
+
+Nsigs  =
+  The number of standard deviations (sigmas) required for the error ellipse
+to intersect the body being closely approached. Units: STANDARD DEVIATIONS
+
+P_i/p  =
+  Linearized probability of the object impacting the body. Non-zero values
+less than approximately 0.001 may not be numerically significant due to the
+linearization process.
+
+                        +++++++++++++++++++++++++++++
+
+IMPORTANT NOTE:
+
+  All tabulated statistical quantities (MinDist, MaxDist, TCA3Sg, SMaA, SMiA,
+B.T, B.R, Theta0, Nsigs and P_i/p) are based on a linearized covariance mapping
+in which higher-order (small) terms in the variational partial derivatives of
+the equations of motion are dropped.
+
+  Due to possible non-linearities in any given objects' actual dynamics, this
+can result in significant errors at epochs distant in time from the solution
+epoch.  Consequently, long linearized mappings (thousands, or hundreds, or
+sometimes just dozens of years from the present time) should be considered
+approximate, pending additional analysis, especially in these cases:
+
+          A) objects with numerous close planetary encounters (dozens),
+          B) objects with very close planetary encounters (< 0.01 au),
+          C) objects with very short data arcs (days or weeks).
+
+  While linearized projections will tend to indicate such cases with obviously
+rapid uncertainty growth, the specific numbers output can tend to understate
+orbit uncertainty knowledge.
+
+  "Nominal" here effectively means "highest-probability for the given orbit
+solution"), although there can be other possible orbits of equal probability.
+
+B-PLANE:
+
+  The B-plane mentioned above is defined by the three orthogonal unit vectors
+S, R, and T. +S is parallel to the hyperbolic approach asymptote with origin
+at the target body's center of mass. T is a vector normal to S in the planetary
+ephemeris equator plane (ICRF/"EME2000"), so in the direction of celestial
+longitude. R = S x T, completing the right-handed system (-S = R x T) in the
+general direction of decreasing celestial latitude ("south"). The B-vector is
+the vector in the R-T plane from the body center to the point where the
+incoming objects' hyperbolic velocity asymptote pierces the R-T plane. The
+B-plane is defined only when the incoming object is hyperbolic with respect to
+the body.
+
+                        ++++++++++++++++++++++++++++
+
+
+Computations by ...
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+    Information  : https://ssd.jpl.nasa.gov/
+    Documentation: https://ssd.jpl.nasa.gov/?horizons_doc
+    Connect      : https://ssd.jpl.nasa.gov/?horizons (browser)
+                   telnet ssd.jpl.nasa.gov 6775       (command-line)
+                   e-mail command interface available
+                   Script and CGI interfaces available
+    Author       : Jon.D.Giorgini@jpl.nasa.gov
+****************************************************************************************************************************************************

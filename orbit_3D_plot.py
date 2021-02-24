@@ -17,7 +17,7 @@ def data(target):
     for idx,line in enumerate(source):
         if '$$SOE' in line:
             start = idx
-        if '$$EOE' in line:
+        elif '$$EOE' in line:
             end = idx
             break
     source.seek(0)
