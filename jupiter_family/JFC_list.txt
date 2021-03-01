@@ -1,4 +1,4 @@
-  1    2P/           Encke                            0.336  0.848   11.8    3.3   3.025  JPL K204/11     MPC    JPL    Yoshida
+1    2P/           Encke                            0.336  0.848   11.8    3.3   3.025  JPL K204/11     MPC    JPL    Yoshida
        4P/           Faye                             1.652  0.570    9.1    7.5   2.750  JPL K144/7      MPC    JPL    Yoshida
        5D/           Brorsen                          0.590  0.810   29.4    5.5   2.467  IAUCAT03        MPC    JPL    Yoshida
        6P/           d'Arrest                         1.361  0.611   19.5    6.6   2.709  JPL K155/3      MPC    JPL    Yoshida
@@ -7,7 +7,7 @@
       10P/           Tempel 2                         1.422  0.536   12.0    5.4   2.964  JPL K214/12     MPC    JPL    Yoshida
       11P/           Tempel-Swift-LINEAR              1.403  0.577   14.6    6.0   2.830  JPL K204/6      MPC    JPL    Yoshida
       14P/           Wolf                             2.729  0.357   27.9    8.8   2.716  JPL K174/8      MPC    JPL    Yoshida
- 10   15P/           Finlay                           0.975  0.720    6.8    6.5   2.620  JPL K142/2      MPC    JPL    Yoshida
+10   15P/           Finlay                           0.975  0.720    6.8    6.5   2.620  JPL K142/2      MPC    JPL    Yoshida
       16P/           Brooks 2                         1.467  0.563    4.3    6.2   2.873  JPL K074/9      MPC    JPL    Yoshida
       17P/           Holmes                           2.057  0.432   19.1    6.9   2.859  JPL K212/12     MPC    JPL    Yoshida
       18D/           Perrine-Mrkos                    1.272  0.643   17.8    6.7   2.669  JPL J682/18     MPC    JPL    Yoshida
@@ -17,7 +17,7 @@
       24P/           Schaumasse                       1.206  0.705   11.7    8.3   2.504  JPL K173/9      MPC    JPL    Yoshida
       25D/           Neujmin 2                        1.338  0.567   10.6    5.4   2.932  JPL 7           MPC    JPL    Yoshida
       26P/           Grigg-Skjellerup                 1.117  0.633   22.4    5.3   2.805  JPL K1810/3     MPC    JPL    Yoshida
- 20   28P/           Neujmin 1                        1.564  0.774   14.4   18.2   2.166  JPL 45          MPC    JPL    Yoshida
+20   28P/           Neujmin 1                        1.564  0.774   14.4   18.2   2.166  JPL 45          MPC    JPL    Yoshida
       30P/           Reinmuth 1                       1.881  0.502    8.1    7.3   2.837  JPL K172/8      MPC    JPL    Yoshida
       31P/           Schwassmann-Wachmann 2           3.424  0.193    4.5    8.7   2.993  JPL K193/19     MPC    JPL    Yoshida
       32P/           Comas Sola                       2.009  0.555   10.0    9.6   2.680  JPL K142/1      MPC    JPL    Yoshida
