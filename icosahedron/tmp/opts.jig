@@ -1,0 +1,11 @@
+# opts.jig config. file; created by JIGSAW's PYTHON interface 
+  VERBOSITY=1
+  INIT_FILE=out/mesh-ITER.msh
+  GEOM_FILE=tmp/geom.msh
+  MESH_FILE=out/mesh.msh
+  MESH_ITER=0
+  OPTM_KERN=odt+dqdx
+  OPTM_ITER=512
+  OPTM_QTOL=1e-08
+  OPTM_ZIP_=FALSE
+  OPTM_DIV_=FALSE

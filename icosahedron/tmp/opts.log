@@ -1,0 +1,168 @@
+ 
+#------------------------------------------------------------
+#
+#   ,o, ,o,       /                                 
+#    `   `  e88~88e  d88~\   /~~~8e Y88b    e    / 
+#   888 888 88   88 C888         88b Y88b  d8b  /   
+#   888 888 "8b_d8"  Y88b   e88~-888  Y888/Y88b/  
+#   888 888  /        888D C88   888   Y8/  Y8/     
+#   88P 888 Cb      \_88P   "8b_-888    Y    Y    
+# \_8"       Y8""8D                             
+#
+#------------------------------------------------------------
+# JIGSAW: an unstructured mesh generation library.  
+#------------------------------------------------------------
+ 
+  JIGSAW VERSION 0.9.14
+
+  Reading CFG. file...
+
+  CFG. data summary...
+
+  GEOM-FILE = tmp/geom.msh 
+  MESH-FILE = out/mesh.msh 
+  HFUN-FILE =  
+  INIT-FILE = out/mesh-ITER.msh 
+  TRIA-FILE =  
+  BNDS-FILE =  
+
+  GEOM-SEED = 8 
+  GEOM-PHI1 = 6.00e+01 
+  GEOM-PHI2 = 6.00e+01 
+  GEOM-ETA1 = 4.50e+01 
+  GEOM-ETA2 = 4.50e+01 
+  GEOM-FEAT = FALSE 
+
+  INIT-NEAR = 1.00e-08 
+
+  HFUN-SCAL = RELATIVE 
+  HFUN-HMAX = 2.00e-02 
+  HFUN-HMIN = 0.00e+00 
+
+  BNDS-KERN = BND-TRIA 
+  MESH-KERN = DELFRONT 
+  MESH-TOP1 = FALSE 
+  MESH-TOP2 = FALSE 
+  MESH-ITER = 0 
+  MESH-DIMS = 3 
+  MESH-SIZ1 = 1.33e+00 
+  MESH-SIZ2 = 1.30e+00 
+  MESH-SIZ3 = 1.29e+00 
+  MESH-EPS1 = 3.33e-01 
+  MESH-EPS2 = 3.33e-01 
+  MESH-RAD2 = 1.05e+00 
+  MESH-RAD3 = 2.05e+00 
+  MESH-OFF2 = 9.00e-01 
+  MESH-OFF3 = 1.10e+00 
+  MESH-SNK2 = 2.00e-01 
+  MESH-SNK3 = 3.33e-01 
+  MESH-VOL3 = 0.00e+00 
+
+  OPTM-KERN = ODT+DQDX 
+  OPTM-ITER = 512 
+  OPTM-QTOL = 1.00e-08 
+  OPTM-QLIM = 9.38e-01 
+  OPTM-ZIP_ = FALSE 
+  OPTM-DIV_ = FALSE 
+  OPTM-TRIA = TRUE 
+  OPTM-DUAL = FALSE 
+
+  Done. (5.75e-04sec)
+
+#------------------------------------------------------------
+
+  Reading GEOM file...
+
+  Done. (1.10e-04sec)
+
+#------------------------------------------------------------
+
+  Forming GEOM data...
+
+  GEOM data summary...
+
+  ELLIPSOID-MESH
+
+  |NDIMS.| = 3
+
+  |1-RAD.| = 1.00e+00 
+  |2-RAD.| = 1.00e+00 
+  |3-RAD.| = 1.00e+00 
+
+  |COORD.| = 0
+  |EDGE-2| = 0
+
+  |SEEDS.| = 0
+
+  Done. (1.06e-04sec)
+
+#------------------------------------------------------------
+
+  Reading INIT file...
+
+  Done. (9.34e-04sec)
+
+#------------------------------------------------------------
+
+  Forming INIT data...
+
+  INIT data summary...
+
+  EUCLIDEAN-MESH
+
+  |NDIMS.| = 3
+
+  |COORD.| = 162
+  |EDGE-2| = 480
+  |TRIA-3| = 320
+  |QUAD-4| = 0
+  |TRIA-4| = 0
+
+  Done. (2.67e-04sec)
+
+#------------------------------------------------------------
+
+  Forming HFUN data...
+
+  HFUN data summary...
+
+  CONSTANT-VALUE
+
+  .VAL(H). = 4.00e-02
+
+  Done. (2.60e-05sec)
+
+#------------------------------------------------------------
+
+  Forming MESH data...
+
+  Done. (2.30e-05sec)
+
+#------------------------------------------------------------
+
+  MESH optimisation...
+
+#------------------------------------------------------------
+#    |MOVE.|      |FLIP.|      |MERGE|      |SPLIT| 
+#------------------------------------------------------------
+        162            0            0            0
+        162            0            0            0
+        162            0            0            0
+        162            0            0            0
+        162            0            0            0
+        162            0            0            0
+        162            0            0            0
+        162            0            0            0
+        145            0            0            0
+         68            0            0            0
+          5            0            0            0
+          0            0            0            0
+
+  Done. (4.80e-02sec)
+
+#------------------------------------------------------------
+
+  Writing MESH file...
+
+  Done. (1.41e-03sec)
+
