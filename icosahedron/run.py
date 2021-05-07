@@ -16,7 +16,8 @@ def make_mesh():
     opts.mesh_file = "out/mesh.msh"
 
     geom.mshID = "ellipsoid-mesh"               # a simple "unit" sphere
-    geom.radii = np.ones(+3)
+    # geom.radii = np.ones(+3) * 2
+    geom.radii = np.array([2, 1.5, 1.5])
     jigsawpy.savemsh(opts.geom_file, geom)
 
     opts.verbosity = +1                         # setup user-defined opt
@@ -38,7 +39,7 @@ def make_mesh():
 
     print("CPUSEC =", (ttoc - ttic))
 
-    jigsawpy.savevtk("ico1.vtk", mesh)          # to open in paraview...
+    jigsawpy.savevtk("elip_2_15_15.vtk", mesh)          # to open in paraview...
 
     return
 
